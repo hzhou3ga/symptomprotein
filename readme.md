@@ -48,6 +48,7 @@ to predict symptoms for the 4222 training genes:
 ####
 to predict symptoms for novel genes:
 this will take ~24 hours
+
 ./scan_all_jkn_boostrf_top1_ent_null_knowgene_tr.job
 
 
