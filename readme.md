@@ -41,18 +41,19 @@ generate SVM vector of the label vector
 
 cat all_gn_qlt0.05new_label_0.txt | awk '{c="0";for(l=1;l<=7152;l++) c=c " " l ":" $l;print c,"#",$NF}' > all_gn_qlt0.05new_svmlabel.txt 
 
+to predict symptoms for the 4222 training genes:
 
 ./scan_all_jkn_boostrf_top1_ent_null_knowgene.job
 
 ####
-to predict gene to symptoms for novel genes:
+to predict symptoms for novel genes:
 this will take ~24 hours
 ./scan_all_jkn_boostrf_top1_ent_null_knowgene_tr.job
 
 
-
 ####
-merge gene-symptom predictions:
+
+merge gene-symptom predictions for getting symptom to gene predictions:
 ./scan_all_jkn_boostrf_top1_ent_null_knowgene_kn.job
 --> all_sym2gn_pred.out
 ./scan_all_sym2gn_rr.job
