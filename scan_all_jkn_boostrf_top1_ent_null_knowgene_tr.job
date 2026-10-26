@@ -1,0 +1,78 @@
+#!/bin/tcsh -f  
+
+
+set mmm=$0:r
+set ddd=`echo 1 | awk 'BEGIN{cc="'$mmm'"}{for(l=1;l<=length(cc);l++) if(substr(cc,l,1)=="/") ip=l}END{print substr(cc,1,ip-1)}'`
+
+setenv PYTHON /local/images/anaconda2_4.4.0/bin/python
+
+#set lst=all_side_plt0.05.lst
+#set np=`wc -l $lst | awk '{print $1}'`
+
+set i=0
+lpi:
+
+if ( $i == 0 ) then
+set me0="XXXX"
+else
+set me0=`head -$i $lst | tail -1 | awk '{print $1}'`
+endif 
+set out=output/$me0/mycomb_boostrf_pred2.txt 
+
+
+if ( ! -e output/$me0 ) mkdir -p output/$me0 
+if (  -e $out  ) then
+#goto ok1
+else 
+endif 
+
+
+echo $i  $me0  
+
+
+set job=/tmp/${USER}/phenotype_jkn_tr.job
+if ( ! -e /tmp/${USER} ) mkdir -p /tmp/${USER} 
+
+set jbn=X${me0}_N2
+
+
+
+set mydir=`pwd`
+
+
+echo "#\!/bin/tcsh -f " > ! $job
+echo "#PBS -d /tmp/${USER}  " >> $job
+echo "#PBS -e $mydir " >> $job
+echo "#PBS -l qos=batch " >> $job
+echo "#PBS -N $jbn " >> $job
+echo " " >> $job
+echo "setenv LIU $ddd " >> $job 
+echo "set rundir=$mydir " >> $job
+echo "cd  $mydir " >> $job 
+echo "$ddd/scan_jkn_boostrf_2_tr.job  $me0   " >> $job 
+chmod a+x $job 
+
+echo "run ..."
+setenv PBS_JOBID testbrfsymptom-tr/ 
+$job 
+exit
+
+##$ddd/subme_h_nocasp_nopersonal_sm.job $job  $jbn  60
+$ddd/subme_h_nocasp_nopersonal_big.job $job  $jbn  500
+#sleep 0.1
+
+ok1:
+
+set nq=`qstat -u $USER | grep "_N2" | wc -l | awk '{print $1}'`
+if ( $nq >= 800 ) then
+sleep 600
+goto ok1
+endif 
+
+
+
+
+@ i = $i + 1
+#if ( $i <= $np ) goto lpi
+
+ok:

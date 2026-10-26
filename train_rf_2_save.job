@@ -1,0 +1,74 @@
+#!/bin/tcsh -f 
+
+#set nstep=50
+set nstep=25
+#set step=0.02
+set step=0.2
+set nl=4251
+#if ( $1 != "" ) set nl=$1
+if ( $2 != "" ) set nl=$2
+if ( $1 != "" ) set mydir=$1
+#if ( $3 == "" ) exit 
+#set ff0=$3
+
+if ( ! -e model ) mkdir -p model
+if ( ! -e pred ) mkdir -p pred
+
+cat train_svmlabel_0.txt > ! train_svmlabel.txt
+
+set flg=0
+if ( -e $mydir/model/$nstep ) set flg=1
+
+set i=1
+lpi:
+echo $i 
+
+if ( ! -e $mydir/model/$i/model_tree.pkl ) then
+#/local/images/anaconda2_4.4.0/bin/python train_rf.py 
+$PYTHON  train_rf.py 
+if ( ! -e $mydir/model/$i ) mkdir -p $mydir/model/$i
+/bin/cp -f model/model* $mydir/model/$i
+else
+rm -irf model
+ln -sf $mydir/model/$i  model 
+endif 
+
+if ( $flg == 0 ) then
+#/local/images/anaconda2_4.4.0/bin/python test_rf.py 
+$PYTHON test_rf.py 
+else
+#/local/images/anaconda2_4.4.0/bin/python test_rf_notrain.py 
+$PYTHON test_rf_notrain.py 
+endif 
+
+set j=$i
+lpj:
+if ( $j == 1 ) then
+if ( $flg == 0 ) then
+cat pred/pred.txt | awk '{c="";for(l=1;l<='$nl';l++){x='$step'*$l;c=c " " x};print c}' > ! __tmp.txt
+endif 
+cat pred/test_pred.txt | awk '{c="";for(l=1;l<='$nl';l++){x='$step'*$l;c=c " " x};print c}' > ! __testtmp.txt
+else
+if ( $flg == 0 ) then
+paste __tmp.txt pred/pred.txt | awk '{c="";for(l=1;l<='$nl';l++){x=$l+'$step'*$(l+'$nl');c=c " " x};print c}' > ! __tmp1.txt
+cat __tmp1.txt > ! __tmp.txt
+endif 
+paste __testtmp.txt pred/test_pred.txt | awk '{c="";for(l=1;l<='$nl';l++){x=$l+'$step'*$(l+'$nl');c=c " " x};print c}' > ! __testtmp1.txt
+cat __testtmp1.txt > ! __testtmp.txt
+endif 
+@ j = $j + 1
+if ( $j <= $i ) goto lpj
+
+if ( $flg == 0 ) then
+#for training model ( might not be good)
+#paste train_label_0.txt __tmp.txt | awk '{c="0 ";for(l=1;l<='$nl';l++){y=0.0;if($l>0) y=1.0;x=($l-$(l+'$nl')*y);c=c " " l ":" x};print c}' > ! train_svmlabel.txt 
+#for LOOCV: nl2 should be exact = $nl
+set nl2=`head -1  train_label_0.txt  | awk '{print NF}'`
+paste train_label_0.txt __tmp.txt | awk '{c="0 ";for(l=1;l<='$nl';l++){x=($l-$(l+'$nl2'));c=c " " l ":" x};print c}' > ! train_svmlabel.txt
+endif 
+
+
+@ i = $i + 1
+if ( $i <= $nstep ) goto lpi
+
+

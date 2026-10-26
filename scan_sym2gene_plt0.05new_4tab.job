@@ -1,0 +1,42 @@
+#!/bin/csh -f 
+
+set lst=$1
+#if ( $1 == "" ) set lst=phenotype_index_name_nobrk_noconflict.lst
+#if ( $1 == "" ) set lst=omim_allcolumn_goa_gen_id_name_sort.txt
+#if ( $1 == "" ) set lst=all_side_qlt0.05new_hasgn.lst
+if ( $1 == "" ) set lst=all_side_qlt0.05new_hasgn_namesort.tsv
+
+set np=`wc -l $lst | awk '{print $1}'`
+set dat=../all_omim-3-side-3_qlt0.05new_mat.txt
+
+rm -if _tmp.tsv
+set i=1
+lp:
+
+set pdb=`head -$i  $lst | tail -1  |awk '{print $1}'`
+set nm=`grep -w $pdb $dat | head -1  |awk 'BEGIN{FS="#"}{print $NF}'`
+if ( $pdb == "" ) then 
+mv -f _tmp.tsv all_side_qlt0.05new_hasgn_inclnovel_genelst.tsv 
+exit
+endif 
+
+echo $i $pdb   $nm
+
+if ( ! -e sym2gn/$pdb.txt ) then
+goto ok
+endif 
+head -1  sym2gn/$pdb.txt > ! _tmp.lst
+grep -v "#" sym2gn/$pdb.txt | awk '{print $1}'  | sort -k1 | awk '{if($1!=c){c=$1;print $1}}' >> _tmp.lst  
+cat   _tmp.lst    | awk -v nm="$nm" '{i=i+1;if(i==1){t0=$2;c=nm;};if(i==2) d=$1;if(i>2) d=d "|" $1}END{print t0"\t"c"\t"i-1"\t"d}' >> _tmp.tsv
+#echo "" >> _tmp.tsv
+
+
+
+ok:
+
+ @ i = $i + 1 
+
+if ($i <= $np ) goto lp
+
+
+mv -f _tmp.tsv all_side_qlt0.05new_hasgn_inclnovel_genelst.tsv 

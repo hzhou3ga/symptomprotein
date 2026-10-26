@@ -1,0 +1,59 @@
+#!/bin/tcsh -f  
+
+rm -if _rr.out 
+
+set mmm=$0:r
+set ddd=`echo 1 | awk 'BEGIN{cc="'$mmm'"}{for(l=1;l<=length(cc);l++) if(substr(cc,l,1)=="/") ip=l}END{print substr(cc,1,ip-1)}'`
+
+#set dat=omim_allcolumn_goa_unique_gn_phe_all4fea_novalue_name.txt
+#set dat=../../omim_allcolumn_goa_unique_gn_genemap2_index.lst
+
+#set lst=phenotype_index_hasfea_sort.lst
+#set lst=phenotype_index_hasfea_exclnosym_sort.lst
+#set lst=symptom_side_base_hasfea_freq2_sort.lst
+#set lst=all_symGAN_side_red_symfreqge2_sort.lst
+#set lst=all_side_plt0.05_ind_name.lst
+set lst=all_side_qlt0.05new_hasgn_name.lst
+
+set np=`wc -l $lst | awk '{print $1}'`
+
+rm -if _tmp1.txt 
+set cut=0.32
+
+echo "# ID| known genes # | novel gene # predicted precision > $cut | non-mendian novel gene | name" >> _tmp1.txt
+
+set i=1
+lpi:
+
+
+set me0=`head -$i $lst | tail -1 | awk '{print $1}'`
+set nm=`head -$i $lst | tail -1 | awk 'BEGIN{}{c=$2;for(m=3;m<=NF;m++) c=c " " $m;print c}'`
+set out=predsym2gn-precision/$me0.txt
+set out1=predsym2novelgn-precision/$me0.txt
+#set me2=`echo $me0 $nm | awk '{c=$2;for(l=3;l<=NF;l++) c=c "_" $l;print $1"-"c}'`
+set me2=$me0
+
+
+if ( ! -e $out  ) then
+goto ok1
+endif 
+if ( ! -e sym2gn/$me2.txt ) then
+echo "#"   $me0  $nm   " # columns: gene|j-score/predicted precision|known or novel"  >! sym2gn/$me2.txt
+cat $out | awk '{if($1>0){i=i+1;print $3,$2,$4,"known"}}' | sort -k2 -gr >> sym2gn/$me2.txt
+cat $out | awk '{if($1<=0&&$4>'$cut'){i=i+1;print  $3,$2,$4,"novel mendelian"}}' | sort -k2 -gr >> sym2gn/$me2.txt
+cat $out1 | awk '{if($1<=0&&$4>'$cut'){i=i+1;print  $3,$2,$4,"novel "}}' |sort -k2 -gr >> sym2gn/$me2.txt
+endif 
+
+set n1=`cat $out | awk '{if($1>0){i=i+1;print $3,"known"}}' | wc -l | awk '{print $1}'`
+set n2=`cat $out $out1 | awk '{if($1<=0&&$4>'$cut'){i=i+1;print  $3,$4,"novel"}}' | wc -l | awk '{print $1}'` 
+set n3=`grep novel sym2gn/$me2.txt | egrep -v "mendelian|#" | wc -l | awk '{print $1}'`
+echo $i  $me0  $n1 $n2  $n3 $nm 
+echo  $me0  $n1 $n2 $n3  $nm  >> _tmp1.txt 
+
+ok1:
+
+@ i = $i + 1
+if ( $i <= $np ) goto lpi
+
+mv -f _tmp1.txt sym2gn_stat_${cut}.txt 
+ok:

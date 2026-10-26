@@ -1,0 +1,86 @@
+#!/bin/tcsh -f  
+
+
+set mmm=$0:r
+set ddd=`echo 1 | awk 'BEGIN{cc="'$mmm'"}{for(l=1;l<=length(cc);l++) if(substr(cc,l,1)=="/") ip=l}END{print substr(cc,1,ip-1)}'`
+
+setenv PYTHON /local/images/anaconda2_4.4.0/bin/python
+
+
+#set lst=phenotype_index_hasfea_sort.lst
+#set lst=all_gn_symfreqge2.lst
+#set lst=all_gn_symGAN_symfreqge2.lst 
+set lst=all_omim-3-side-3_qlt0.05new_mat_gn.lst
+if ( $1 != "" ) set lst=$1
+
+set np=`wc -l $lst | awk '{print $1}'`
+
+set i=1
+lpi:
+
+
+set me0=`head -$i $lst | tail -1 | awk '{print $1}'`
+set out=output/$me0/mycomb_boostrf_pred2.txt 
+
+
+set ls=`grep $me0"_" jbr_c| wc -l | awk '{print $1}'`
+echo $i  $me0   $ls 
+
+#if ( $ls == 0 ) goto ok1
+
+if ( ! -e output/$me0 ) mkdir -p output/$me0 
+if (  -e $out  ) then
+set nn=`wc -l $out | awk '{print $1}'`
+if ( $nn > 0 ) goto ok1
+else 
+endif 
+
+
+
+
+set job=/tmp/${USER}/phenotype_jkn.job
+if ( ! -e /tmp/${USER} ) mkdir -p /tmp/${USER} 
+
+set jbn=X${me0}_symGAN
+
+
+set mydir=`pwd`
+
+
+echo "#\!/bin/tcsh -f " > ! $job
+echo "#PBS -d /tmp/${USER}  " >> $job
+echo "#PBS -e $mydir " >> $job
+echo "#PBS -l qos=batch " >> $job
+echo "#PBS -N $jbn " >> $job
+echo " " >> $job
+echo "setenv LIU $ddd " >> $job 
+echo "set rundir=$mydir " >> $job
+echo "cd  $mydir " >> $job 
+echo "$ddd/scan_jkn_boostrf_2.job  $me0   " >> $job 
+chmod a+x $job 
+
+echo "run ..."
+#setenv PBS_JOBID testbrfsymptom/ 
+#$job 
+#exit
+
+$ddd/subme_h_nocasp_nopersonal_big.job $job  $jbn  500
+sleep 0.1
+
+ok2:
+
+
+#set nq=`qstat -u $USER | grep "_sym" | wc -l | awk '{print $1}'`
+set nq=100
+if ( $nq >= 800 ) then
+sleep 600
+goto ok2
+endif 
+
+ok1:
+
+
+@ i = $i + 1
+if ( $i <= $np ) goto lpi
+
+ok:

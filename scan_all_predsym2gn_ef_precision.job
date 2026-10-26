@@ -1,0 +1,45 @@
+#!/bin/tcsh -f  
+
+
+set mmm=$0:r
+set ddd=`echo 1 | awk 'BEGIN{cc="'$mmm'"}{for(l=1;l<=length(cc);l++) if(substr(cc,l,1)=="/") ip=l}END{print substr(cc,1,ip-1)}'`
+
+set cut=20
+if ( $1 != "" ) set cut=$1
+
+#set lst=all_side_plt0.05_ind_name.lst
+set lst=all_side_qlt0.05new_hasgn_name.lst
+
+set np=`wc -l $lst | awk '{print $1}'`
+rm -if _rr.out 
+touch _rr.out 
+
+set i=1
+lpi:
+set me0=`head -$i $lst | tail -1 | awk '{print $1}'`
+
+set out0=predsym2gn-precision/$me0.txt 
+set out=predsym2novelgn-precision/$me0.txt 
+set outa=predsym2allgn-precision/$me0.txt 
+
+#cat $out0 $out >! $outa
+
+
+
+if ( ! -e $out  ) then
+goto ok1
+endif 
+
+set rr3=`sort -gr -k2 $out0 | awk 'BEGIN{i=0;j=0;k=0;m=0;i0=0;c=0}{i0=i0+1;if($1>0) i=i+1;m=m+1;if(m<='$cut'){j=j+1;if($1>0) k=k+1;c=c+$4}}END{print i,j,k/(i/i0*'$cut'),k/(j+0.0000001),c/'$cut'}'`
+set rr4=`sort -gr -k4 $out0 | head -1 | awk '{print $4}'`
+
+
+echo $i $me0   $rr3 $rr4
+echo $me0  $rr3 $rr4 >> _rr.out 
+
+ok1:
+
+@ i = $i + 1
+if ( $i <= $np ) goto lpi
+
+ok:

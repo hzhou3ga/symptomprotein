@@ -1,0 +1,99 @@
+#!/bin/tcsh -f 
+
+set src0=$LIU
+
+set ii=$1
+
+set i=1
+lpi:
+
+set me=$1
+if ( $1 == "" ) exit 
+
+set mydir=`pwd`
+
+set ss=`echo $src0 | awk '{print substr($1,1,1)}'`
+if ( $ss != "/" && $ss != "\" ) set src0=$mydir"/"$src0
+
+echo $src0
+
+set src2=$src0
+
+set workdir=/tmp/${USER}/${PBS_JOBID}/$me
+
+if (  -e $workdir )  rm -irf  $workdir
+if ( ! -e $workdir )  mkdir -p $workdir
+
+cd  $workdir 
+cp -u $src0/train_rf_2_save.job  $src0/train_rf.py $src0/test_rf.py  $src0/test_rf_notrain.py .
+
+cp -u  $mydir/all_gn_qlt0.05new_svmlabel.txt  $mydir/all_gn_qlt0.05new_all3fea.txt .
+awk 'BEGIN{FS="#"}{print $1}' < $mydir/all_gn_qlt0.05new_label_0.txt  >! omim_sym_label_0.txt 
+
+set nsd=`head -1 omim_sym_label_0.txt | awk '{print NF}'`
+
+set m=1
+#set m=2
+lpm:
+
+
+if ( $m == 1 ) then
+set ff=all_gn_qlt0.05new_all3fea.txt
+set ff0=$ff
+set nfea=`head -1 $ff | awk '{print NF-3}'`
+echo "nfea= " $nfea "nsd= " $nsd
+else if ( $m == 2 ) then
+set ff="knowgene"
+set ff0=$ff
+set nfea=1920
+endif 
+
+echo $i $ff  $m
+
+
+awk 'BEGIN{}{if($(NF-1)!="'$me'") print $0}' <$ff > ! train0_fea.txt
+awk 'BEGIN{}{if($NF!="'$me'") print $0}' <$mydir/all_gn_qlt0.05new_label_0.txt | awk 'BEGIN{FS="#"}{print $1}' > ! train_label_0.txt
+awk 'BEGIN{}{if($NF!="'$me'") print $0}' <all_gn_qlt0.05new_svmlabel.txt > ! train_svmlabel_0.txt
+if ( $me != "XXXX" ) then
+awk 'BEGIN{}{if($NF=="'$me'") print $0}' <$ff > ! test0_fea.txt
+awk 'BEGIN{}{if($NF=="'$me'") print $0}' <$mydir/all_gn_qlt0.05new_label_0.txt > ! test_label_0.txt
+else
+echo "NONE"
+cat $mydir/all_gn_noqlt0.05new_all3fea.txt  >! test0_fea.txt
+head -1 $mydir/all_gn_qlt0.05new_label_0.txt >! test_label_0.txt
+endif 
+
+
+wc -l test0_fea.txt train_label_0.txt test_label_0.txt   train_svmlabel_0.txt  train0_fea.txt 
+cp -u test_label_0.txt $mydir/output/$me
+
+#to SVM format:
+awk '{c=$1;for(l=1;l<=NF-3;l++) c=c " " l":" $(l+1);print c}'<train0_fea.txt >! train_fea.txt
+awk '{c=$1;for(l=1;l<=NF-3;l++) c=c " " l":" $(l+1);print c}'<test0_fea.txt  >! test_fea.txt
+
+
+
+#./train_rf_2.job  $nsd 
+./train_rf_2_save.job  $src2 $nsd   
+
+cat __testtmp.txt > ! pred.txt 
+
+if ( $m == 1 )  then
+cat  pred.txt > ! _mypred0.txt
+else
+paste  _mypred0.txt pred.txt  | awk '{c="";for(l=1;l<='$nsd';l++){x=($l*('$m'-1)+$(l+'$nsd'))/'$m';c=c " " x};print c}'  > ! _mypred1.txt
+cat _mypred1.txt > ! _mypred0.txt
+endif 
+
+@ m = $m + 1
+#if ( $m <= 2 ) goto lpm
+cat _mypred0.txt > ! $mydir/output/$me/mycomb_boostrf_pred2.txt 
+
+cat test0_fea.txt | awk '{print $(NF-1),$NF}' >! x0 
+paste _mypred0.txt x0 >! $mydir/output/$me/mycomb_boostrf_pred2_gn.txt
+
+cd $mydir
+sleep 1
+rm -irf $workdir 
+
+

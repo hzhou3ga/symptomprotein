@@ -1,0 +1,37 @@
+#!/bin/tcsh -f  
+
+
+set mmm=$0:r
+set ddd=`echo 1 | awk 'BEGIN{cc="'$mmm'"}{for(l=1;l<=length(cc);l++) if(substr(cc,l,1)=="/") ip=l}END{print substr(cc,1,ip-1)}'`
+
+set lst=all_omim-3-side-3_qlt0.05new_mat_gn.lst
+set np=`wc -l $lst | awk '{print $1}'`
+rm -if _all_pred.out 
+
+set i=1
+lpi:
+
+
+set me0=`head -$i $lst | tail -1 | awk '{print $1}'`
+set out=output/$me0/mycomb_boostrf_pred2.txt 
+set lb=output/$me0/test_label_0.txt
+
+
+if ( ! -e $out  ) then
+goto ok1
+else 
+endif 
+
+echo $i  $me0  
+set ns=`head -1 $lb | awk '{print NF-2}'`
+
+paste $lb $out | head -1  | awk '{c=$1;d=$(1+'$ns'+2);for(l=2;l<='$ns';l++){c=c " " $l; d=d " " $(l+'$ns'+2)};print c,d,"#",$('$ns'+2)}' >> _all_pred.out
+
+ok1:
+
+@ i = $i + 1
+if ( $i <= $np ) goto lpi
+
+mv  _all_pred.out all_sym2gn_pred.out  
+
+ok:

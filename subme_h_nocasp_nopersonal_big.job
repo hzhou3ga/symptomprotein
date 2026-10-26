@@ -1,0 +1,25 @@
+#!/bin/tcsh -f
+
+set jb=$1
+if ( $jb == "" ) then
+echo give a script
+exit
+endif
+set nm=$2
+if ( $nm == "" ) then
+echo give a name
+exit
+endif
+set tm=$3\:0\:0
+if ( $3 == "" ) set tm=150\:0\:0
+#echo $tm   $3
+
+set dd=`pwd`
+set oe=/dev/null
+echo $dd  $jb $nm
+if ( -e err ) then
+qsub -q batch -N $nm -d $dd  -e $dd/err  -o $oe   -l  qos=batch,mem=14550mb,ddisk=2900mb,walltime=$tm $jb  
+else
+qsub -q batch -N $nm -d $dd  -e $oe  -o $oe   -l  qos=batch,mem=14550mb,ddisk=2900mb,walltime=$tm $jb  
+endif 
+

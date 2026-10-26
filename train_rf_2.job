@@ -1,0 +1,50 @@
+#!/bin/tcsh -f 
+
+#set nstep=50
+set nstep=25
+#set step=0.02
+set step=0.2
+set nl=4251
+if ( $1 != "" ) set nl=$1
+
+if ( ! -e model ) mkdir -p model
+if ( ! -e pred ) mkdir -p pred
+
+cat train_svmlabel_0.txt > ! train_svmlabel.txt
+
+set i=1
+lpi:
+echo $i 
+touch $i 
+#/local/images/anaconda2_4.4.0/bin/python train_rf.py 
+$PYTHON train_rf.py 
+#if ( ! -e model/$i ) mkdir -p model/$i
+#/bin/cp -f model/model* model/$i
+#/local/images/anaconda2_4.4.0/bin/python test_rf.py 
+$PYTHON test_rf.py 
+#if ( ! -e pred/$i ) mkdir -p pred/$i
+#/bin/cp -f pred/pred.txt pred/$i
+
+set j=$i
+lpj:
+if ( $j == 1 ) then
+cat pred/pred.txt | awk '{c="";for(l=1;l<='$nl';l++){x='$step'*$l;c=c " " x};print c}' > ! __tmp.txt
+cat pred/test_pred.txt | awk '{c="";for(l=1;l<='$nl';l++){x='$step'*$l;c=c " " x};print c}' > ! __testtmp.txt
+else
+paste __tmp.txt pred/pred.txt | awk '{c="";for(l=1;l<='$nl';l++){x=$l+'$step'*$(l+'$nl');c=c " " x};print c}' > ! __tmp1.txt
+paste __testtmp.txt pred/test_pred.txt | awk '{c="";for(l=1;l<='$nl';l++){x=$l+'$step'*$(l+'$nl');c=c " " x};print c}' > ! __testtmp1.txt
+cat __tmp1.txt > ! __tmp.txt
+cat __testtmp1.txt > ! __testtmp.txt
+endif 
+@ j = $j + 1
+if ( $j <= $i ) goto lpj
+
+#for training model ( might not be good) !  always use original to make fitting more strong
+#paste train_label_0.txt __tmp.txt | awk '{c="0 ";for(l=1;l<='$nl';l++){y=0.0;if($l>0) y=1.0;x=($l-$(l+'$nl')*y);c=c " " l ":" x};print c}' > ! train_svmlabel.txt
+set nl2=`head -1  train_label_0.txt  | awk '{l0=1;for(l=2;l<=100000;l++)if($l!="") l0=l}END{print l0}'`
+paste train_label_0.txt __tmp.txt | awk '{c="0 ";for(l=1;l<='$nl';l++){x=($l-$(l+'$nl2'));c=c " " l ":" x};print c}' > ! train_svmlabel.txt 
+
+
+@ i = $i + 1
+if ( $i <= $nstep ) goto lpi
+

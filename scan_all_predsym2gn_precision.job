@@ -1,0 +1,52 @@
+#!/bin/tcsh -f  
+
+
+set mmm=$0:r
+set ddd=`echo 1 | awk 'BEGIN{cc="'$mmm'"}{for(l=1;l<=length(cc);l++) if(substr(cc,l,1)=="/") ip=l}END{print substr(cc,1,ip-1)}'`
+
+
+set lst=all_side_qlt0.05new_hasgn_name.lst
+
+set np=`wc -l $lst | awk '{print $1}'`
+
+if ( ! -e predsym2gn_precision_step2.dat ) then
+if ( ! -e allpredsym2gn.txt ) then
+cat predsym2gn/*.txt >! allpredsym2gn.txt 
+endif 
+cat allpredsym2gn.txt | awk 'BEGIN{for(l=1;l<=500;l++){t[l]=0.000001;s[l]=0}}{for(l=1;l<=500;l++){if(l<=400)x[l]=l*0.000025;if(l>400)x[l]=0.01+(l-400)*0.0099;if($2>=x[l]){if($1>0.0)s[l]=s[l]+1;t[l]=t[l]+1}}}\
+END{for(l=1;l<=500;l++){cc[l]=s[l]/t[l];if(l>1&&cc[l]<cc[l-1]) cc[l]=cc[l-1];print x[l],cc[l]}}' >! predsym2gn_precision_step2.dat 
+endif 
+
+
+set ns=`wc -l predsym2gn_precision_step2.dat | awk '{print $1}'`
+
+set i=1
+lpi:
+
+
+set me0=`head -$i $lst | tail -1 | awk '{print $1}'`
+set out=predsym2gn/$me0.txt
+set outn=predsym2novelgn/$me0.txt
+set out2=predsym2gn-precision/$me0.txt
+set outn2=predsym2novelgn-precision/$me0.txt
+
+
+if ( ! -e $out  ) then
+goto ok1
+endif 
+
+echo $i  $me0  
+
+cat predsym2gn_precision_step2.dat  $out | awk '{i=i+1;if(i<='$ns'){t[i]=$1;s[i]=$2}else{x=0;for(l=1;l<='$ns';l++)if($2>t[l]) x=s[l];print $0,x}}' >! _tmp.txt 
+cp -u _tmp.txt  $out2
+
+cat predsym2gn_precision_step2.dat  $outn | awk '{i=i+1;if(i<='$ns'){t[i]=$1;s[i]=$2}else{x=0;for(l=1;l<='$ns';l++)if($2>t[l]) x=s[l];print $0,x}}' >! _tmpn.txt
+cp -u _tmpn.txt  $outn2
+
+
+ok1:
+
+@ i = $i + 1
+if ( $i <= $np ) goto lpi
+
+ok:

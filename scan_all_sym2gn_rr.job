@@ -1,0 +1,61 @@
+#!/bin/tcsh  -f
+
+set lst=$1
+if ( $1 == "" ) set lst=all_side_qlt0.05new_hasgn_name.lst
+#
+set np=`wc -l $lst | awk '{print $1}'`
+if ( ! -e predsym2gn ) mkdir predsym2gn
+if ( ! -e predsym2novelgn ) mkdir predsym2novelgn
+
+
+set step=1
+rm -if _rr.out 
+
+set i=1
+lpi:
+set me=`cat  $lst | awk 'BEGIN{i1=('$i'-1)*1;i2='$i'*1;i=0}{i=i+1;if(i>i1&&i<=i2) print $1}'` 
+if ( $me == "" ) then 
+mv -f _rr.out sym2gn_rr.out
+exit 
+endif 
+
+if ( ! -e predsym2gn/${me}.txt ) then
+
+cat all_sym2gn_pred.out | awk 'BEGIN{n1='$i';n2='$i'+'$np'}{print $n1,$n2,$NF}'  >! xx0
+
+cat output/XXXX/mycomb_boostrf_pred2_gn.txt  | awk 'BEGIN{n1='$i'}{print "0",$n1,$NF}' >! xx0_nv
+
+#sort -k4 xx0 | awk 'BEGIN{x=-1000;y=-1000}{if($4!=c){if(c!="") print x,y,z,c;x=$1;y=$2;z=$3;c=$4}else{if($1>x)x=$1;if($2>y) y=$2}}END{print x,y,z,c}' >! xx1
+
+cat xx0 >!  predsym2gn/${me}.txt 
+cat xx0_nv >!  predsym2novelgn/${me}.txt 
+
+set npp=`cat xx0 | awk 'BEGIN{l=0}{c=0;if($1>0) c=1;l=l+c}END{print l}'`
+if ( $npp == 0 ) goto ok1
+cat xx0 | awk '{c=0;if($1>0) c=1;print c,$2}' > ! xx
+else
+cat predsym2gn/${me}.txt  | awk '{c=0;if($1>0) c=1;print c,$2}' > ! xx
+set npp=`cat xx | awk 'BEGIN{l=0}{l=l+$1}END{print l}'`
+endif 
+
+
+set rr1=`scan_auc.job xx`
+set rr2=`scan_aupr.job xx`
+
+
+set nxx=`wc -l xx | awk '{print int($1*0.01)}'`
+
+set ef=`sort -gr -k2  xx | head -$nxx | awk 'BEGIN{c=0}{c=c+$1}END{print c/'$npp'*100}'`
+
+
+echo $me $rr1 $rr2  $ef $npp
+
+echo $me $rr1 $rr2  $ef $npp >> _rr.out
+
+
+ok1:
+
+@ i = $i + 1
+goto lpi
+
+ok:
