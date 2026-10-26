@@ -1,0 +1,2344 @@
+C0000727	6	Acute abdomen	side_effect
+C0000731	35	Abdominal distension	side_effect
+C0000734	13	Abdomen mass	symptom_sign
+C0000735	3	Abdominal neoplasm	side_effect
+C0000737	222	Abdominal pain	side_effect
+C0000765	9	Weight gain excessive	symptom_sign
+C0000768	14	Congenital anomaly	side_effect
+C0000772	34	Multiple congenital abnormalities	side_effect
+C0000833	47	Abscess	side_effect
+C0000889	12	Acanthosis nigricans	side_effect
+C0001122	265	Acidosis	side_effect
+C0001125	191	Lactic acidosis	side_effect
+C0001126	9	Renal tubular acidosis	side_effect
+C0001127	81	Respiratory acidosis	side_effect
+C0001206	8	Acromegaly	side_effect
+C0001339	7	Pancreatitis acute	side_effect
+C0001418	9	Adenocarcinoma	side_effect
+C0001430	10	Adenoma benign	side_effect
+C0001511	16	Adhesion	side_effect
+C0001621	14	Adrenal disorder	side_effect
+C0001623	33	Adrenal insufficiency	side_effect
+C0001733	7	Factor I deficiency	side_effect
+C0001807	6	Aggression	side_effect
+C0001916	24	Albinism	side_effect
+C0002063	20	Alkalosis	side_effect
+C0002170	41	Alopecia	side_effect
+C0002418	37	Amblyopia	side_effect
+C0002726	13	Amyloidosis	side_effect
+C0002902	9	Anencephaly	side_effect
+C0002940	27	Aneurysm	side_effect
+C0002962	2	Angina pectoris	side_effect
+C0002963	2	Prinzmetal angina	side_effect
+C0002994	10	Angioedema	side_effect
+C0003028	11	Anhidrosis	side_effect
+C0003126	29	Anosmia	side_effect
+C0003460	5	Anuria	side_effect
+C0003467	60	Anxiety	side_effect
+C0003469	28	Anxiety disorder	side_effect
+C0003486	12	Aortic aneurysm	side_effect
+C0003493	8	Aortic disorder	side_effect
+C0003496	4	Aortic rupture	side_effect
+C0003507	3	Aortic valve stenosis	side_effect
+C0003537	14	Aphasia	side_effect
+C0003621	16	Appetite disorder	side_effect
+C0003635	52	Apraxia	side_effect
+C0003811	176	Arrhythmia	side_effect
+C0003813	3	Sinus arrhythmia	side_effect
+C0003855	2	Arteriovenous fistula	side_effect
+C0003862	32	Arthralgia	side_effect
+C0003864	81	Arthritis	side_effect
+C0003868	2	Gouty arthritis	side_effect
+C0003873	12	Rheumatoid arthritis	side_effect
+C0003892	2	Neuropathic arthropathy	side_effect
+C0003962	21	Ascites	side_effect
+C0004096	18	Asthma	side_effect
+C0004134	527	Ataxia	side_effect
+C0004158	12	Athetosis	side_effect
+C0004238	26	Atrial fibrillation	side_effect
+C0004239	2	Atrial flutter	side_effect
+C0004245	4	Atrioventricular block	side_effect
+C0004310	2	Auditory disorder process	symptom_sign
+C0004352	138	Autism	side_effect
+C0004364	46	Autoimmune disorder	side_effect
+C0004377	8	Automatism	side_effect
+C0004509	100	Azoospermia	side_effect
+C0004604	81	Back pain	side_effect
+C0004623	152	Bacterial infection	side_effect
+C0004626	89	Pneumonia bacterial	side_effect
+C0004936	13	Mental disorder	side_effect
+C0004941	338	Behavioral symptoms	symptom_sign
+C0004998	2	Benign neoplasm of skin	side_effect
+C0005586	4	Bipolar disorder	side_effect
+C0005684	6	Bladder cancer	side_effect
+C0005686	16	Bladder disorder	side_effect
+C0005697	4	Neurogenic bladder	side_effect
+C0005741	2	Blepharitis	side_effect
+C0005745	99	Eyelid ptosis	side_effect
+C0005747	6	Blepharospasm	side_effect
+C0005758	47	Blister	side_effect
+C0005778	19	Blood clotting	symptom_sign
+C0005779	26	Coagulopathy	side_effect
+C0005818	51	Platelet disorder	side_effect
+C0005826	20	Blood pressure abnormal	side_effect
+C0005940	186	Bone disorder	side_effect
+C0005956	13	Bone marrow disorder	side_effect
+C0006112	49	Metabolic encephalopathy	side_effect
+C0006118	2	Brain neoplasm	side_effect
+C0006142	26	Breast cancer	side_effect
+C0006145	10	Breast disorder	side_effect
+C0006266	4	Bronchospasm	side_effect
+C0006267	54	Bronchiectasis	side_effect
+C0006277	73	Bronchitis	side_effect
+C0006384	4	Bundle branch block	side_effect
+C0006625	4	Cachexia	side_effect
+C0006663	3	Calcinosis	side_effect
+C0006826	2	Neoplasm malignant	side_effect
+C0006840	7	Candida infection	side_effect
+C0006846	4	Skin candida	side_effect
+C0006848	7	Mucocutaneous candidiasis	side_effect
+C0006849	6	Oral candidiasis	side_effect
+C0007102	14	Colon cancer	side_effect
+C0007107	5	Laryngeal cancer	side_effect
+C0007113	41	Rectal cancer	side_effect
+C0007114	75	Skin cancer	side_effect
+C0007115	14	Thyroid cancer	side_effect
+C0007117	13	Basal cell carcinoma	side_effect
+C0007134	12	Renal cell carcinoma	side_effect
+C0007137	32	Squamous cell carcinoma	side_effect
+C0007193	11	Congestive cardiomyopathy	side_effect
+C0007194	59	Hypertrophic cardiomyopathy	side_effect
+C0007196	7	Restrictive cardiomyopathy	side_effect
+C0007222	35	Cardiovascular disorder	side_effect
+C0007286	3	Carpal tunnel syndrome	side_effect
+C0007384	4	Cataplexy	side_effect
+C0007398	5	Catatonia	side_effect
+C0007642	12	Cellulitis	side_effect
+C0007758	197	Cerebellar ataxia	side_effect
+C0007760	90	Cerebellar syndrome	side_effect
+C0007766	5	Intracranial aneurysm	side_effect
+C0007785	2	Cerebral infarction	side_effect
+C0007820	5	Cerebrovascular disorder	side_effect
+C0007859	57	Neck pain	side_effect
+C0007868	2	Cervical dysplasia	side_effect
+C0007971	2	Cheilitis	side_effect
+C0008031	175	Chest pain	side_effect
+C0008035	2	Chest wall pain	symptom_sign
+C0008049	3	Varicella	side_effect
+C0008311	5	Cholangitis	side_effect
+C0008313	2	Cholangitis sclerosing	side_effect
+C0008325	2	Cholecystitis	side_effect
+C0008370	42	Cholestasis	side_effect
+C0008489	28	Chorea	side_effect
+C0008924	60	Cleft lip	side_effect
+C0008925	134	Cleft palate	side_effect
+C0009024	8	Clonus	side_effect
+C0009080	13	Finger clubbing	symptom_sign
+C0009088	2	Cluster headache	side_effect
+C0009241	415	Cognitive disorder	side_effect
+C0009269	10	Cold intolerance	symptom_sign
+C0009319	18	Colitis	side_effect
+C0009324	4	Colitis ulcerative	side_effect
+C0009326	4	Collagen disorder	side_effect
+C0009398	16	Color vision defects	symptom_sign
+C0009421	44	Coma	side_effect
+C0009450	621	Infection	side_effect
+C0009460	47	Communication impairment	symptom_sign
+C0009763	7	Conjunctivitis	side_effect
+C0009782	10	Connective tissue disorder	side_effect
+C0009792	18	Consciousness disorder	symptom_sign
+C0009806	88	Constipation	side_effect
+C0009917	109	Muscle contracture	side_effect
+C0009918	220	Joint contracture	side_effect
+C0009946	3	Conversion disorder	side_effect
+C0010034	18	Corneal disorder	side_effect
+C0010036	12	Corneal dystrophy	side_effect
+C0010038	5	Corneal opacity	side_effect
+C0010200	158	Cough	side_effect
+C0010201	72	Cough chronic	symptom_sign
+C0010278	30	Craniosynostosis	side_effect
+C0010308	19	Congenital hypothyroidism	side_effect
+C0010399	3	Crying	side_effect
+C0010495	15	Cutis laxa	side_effect
+C0010520	30	Cyanosis	side_effect
+C0010709	145	Cyst	side_effect
+C0010828	84	Cytopenia	symptom_sign
+C0011053	124	Deafness	side_effect
+C0011071	45	Sudden death	side_effect
+C0011124	7	Libido decreased	side_effect
+C0011168	121	Dysphagia	side_effect
+C0011175	53	Dehydration	side_effect
+C0011206	2	Delirium	side_effect
+C0011253	16	Delusion	side_effect
+C0011269	2	Vascular dementia	side_effect
+C0011304	7	Demyelination	side_effect
+C0011334	17	Dental caries	side_effect
+C0011364	2	Dental headache	symptom_sign
+C0011432	9	Sensitivity of teeth	side_effect
+C0011570	64	Depression	side_effect
+C0011603	35	Dermatitis	side_effect
+C0011615	4	Dermatitis atopic	side_effect
+C0011630	23	Fungal skin infection	side_effect
+C0011644	4	Scleroderma	side_effect
+C0011757	102	Developmental coordination disorder	side_effect
+C0011848	3	Diabetes insipidus	side_effect
+C0011849	79	Diabetes mellitus	side_effect
+C0011854	11	Type 1 diabetes mellitus	side_effect
+C0011860	19	Type 2 diabetes mellitus	side_effect
+C0011880	10	Diabetic ketoacidosis	side_effect
+C0011881	5	Diabetic nephropathy	side_effect
+C0011882	5	Diabetic neuropathy	side_effect
+C0012241	26	Gastrointestinal malformation	side_effect
+C0012691	35	Joint dislocation	side_effect
+C0012739	7	Disseminated intravascular coagulation	side_effect
+C0012766	2	Skin sensation disturbance	symptom_sign
+C0012833	122	Dizziness	side_effect
+C0013132	3	Drooling	side_effect
+C0013274	7	Patent ductus arteriosus	side_effect
+C0013336	43	Dwarfism	side_effect
+C0013362	283	Dysarthria	side_effect
+C0013384	67	Dyskinesia	side_effect
+C0013395	7	Dyspepsia	side_effect
+C0013421	149	Dystonia	symptom_sign
+C0013428	7	Dysuria	side_effect
+C0013447	726	Ear disorder	side_effect
+C0013456	222	Ear pain	side_effect
+C0013473	2	Eating disorder	side_effect
+C0013537	3	Eclampsia	side_effect
+C0013592	10	Ectropion	side_effect
+C0013595	26	Eczema	side_effect
+C0013687	16	Effusion	side_effect
+C0013922	17	Embolism	side_effect
+C0013928	2	Fat embolism	side_effect
+C0014038	8	Encephalitis	side_effect
+C0014065	23	Encephalocele	side_effect
+C0014130	86	Endocrine disorder	side_effect
+C0014356	10	Enterocolitis	side_effect
+C0014394	2	Enuresis	side_effect
+C0014457	11	Eosinophilia	side_effect
+C0014527	17	Epidermolysis bullosa	side_effect
+C0014544	213	Epilepsy	side_effect
+C0014550	32	Myoclonic epilepsy	side_effect
+C0014591	44	Epistaxis	side_effect
+C0014733	2	Erysipelas	side_effect
+C0014743	6	Erythema nodosum	side_effect
+C0014804	7	Erythromelalgia	side_effect
+C0015230	121	Rash	side_effect
+C0015300	3	Exophthalmos	side_effect
+C0015371	7	Extrapyramidal disorder	side_effect
+C0015393	44	Congenital eye disorder	side_effect
+C0015397	347	Eye disorder	side_effect
+C0015403	40	Eye infection	side_effect
+C0015408	6	Eye injury	side_effect
+C0015423	55	Eyelid disorder	side_effect
+C0015468	19	Facial pain	side_effect
+C0015469	5	Facial paralysis	symptom_sign
+C0015523	3	Factor XI deficiency	side_effect
+C0015544	325	Failure to thrive	side_effect
+C0015624	18	Fanconi syndrome	side_effect
+C0015663	48	Fasting	side_effect
+C0015672	507	Fatigue	side_effect
+C0015674	4	Chronic fatigue syndrome	side_effect
+C0015676	3	Mental fatigue	symptom_sign
+C0015726	7	Fear	side_effect
+C0015934	2	Microsomia	side_effect
+C0016045	16	Fibroma	side_effect
+C0016059	123	Fibrosis	side_effect
+C0016169	17	Fistula	side_effect
+C0016199	37	Flank pain	side_effect
+C0016204	2	Flatulence	side_effect
+C0016382	10	Flushing	side_effect
+C0016412	4	Folate deficiency	side_effect
+C0016508	4	Congenital foot malformation	side_effect
+C0016512	17	Pain foot	symptom_sign
+C0016542	5	Foreign body	side_effect
+C0016655	13	Multiple fractures	side_effect
+C0016658	90	Fracture	side_effect
+C0016664	2	Stress fracture	side_effect
+C0016842	29	Pectus excavatum	side_effect
+C0017178	118	Gastrointestinal disorder	side_effect
+C0017185	3	Gastrointestinal neoplasm	side_effect
+C0017411	4	Genital disorder female	side_effect
+C0017412	10	Genital disorder male	side_effect
+C0017563	5	Gingival disorder	side_effect
+C0017565	3	Gingival bleeding	side_effect
+C0017566	5	Gingival hyperplasia	side_effect
+C0017574	8	Gingivitis	side_effect
+C0017601	55	Glaucoma	side_effect
+C0017605	2	Angle closure glaucoma	side_effect
+C0017636	2	Glioblastoma	side_effect
+C0017638	11	Glioma	side_effect
+C0017658	16	Glomerulonephritis	side_effect
+C0017662	2	Glomerulonephritis membranoproliferative	side_effect
+C0017668	11	Focal segmental glomerulosclerosis	side_effect
+C0017675	4	Glossitis	side_effect
+C0017979	7	Glycosuria	side_effect
+C0018099	13	Gout	side_effect
+C0018188	46	Granuloma	side_effect
+C0018500	65	Hair disorder	side_effect
+C0018524	28	Hallucination	side_effect
+C0018552	25	Hamartoma	side_effect
+C0018674	7	Head injury	side_effect
+C0018681	176	Headache	side_effect
+C0018775	42	Hearing loss bilateral	symptom_sign
+C0018780	16	Frequencies hearing high loss	symptom_sign
+C0018790	23	Cardiac arrest	side_effect
+C0018799	160	Cardiac disorder	side_effect
+C0018800	2	Cardiomegaly	side_effect
+C0018801	128	Cardiac failure	side_effect
+C0018802	4	Cardiac failure congestive	side_effect
+C0018808	16	Cardiac murmur	side_effect
+C0018816	37	Cardiac septal defect	side_effect
+C0018817	28	Atrial septal defect	side_effect
+C0018818	22	Ventricular septal defect	side_effect
+C0018824	2	Cardiac valve disease	side_effect
+C0018843	2	Heat stroke	side_effect
+C0018939	237	Blood disorder	side_effect
+C0018975	4	Blindness day	side_effect
+C0018989	7	Hemiparesis	side_effect
+C0018991	4	Hemiplegia	side_effect
+C0019069	2	Factor VIII deficiency	side_effect
+C0019147	3	Coma hepatic	side_effect
+C0019151	17	Hepatic encephalopathy	side_effect
+C0019158	12	Hepatitis	side_effect
+C0019159	12	Hepatitis A	side_effect
+C0019163	11	Hepatitis B	side_effect
+C0019189	2	Chronic hepatitis	side_effect
+C0019196	10	Hepatitis C	side_effect
+C0019209	107	Hepatomegaly	side_effect
+C0019214	72	Hepatosplenomegaly	side_effect
+C0019243	6	Hereditary angioedema	side_effect
+C0019270	52	Hernia	side_effect
+C0019284	7	Diaphragmatic hernia	side_effect
+C0019294	15	Inguinal hernia	side_effect
+C0019322	17	Umbilical hernia	side_effect
+C0019348	11	Herpes simplex	side_effect
+C0019372	6	Herpes virus infection	side_effect
+C0019557	5	Hip fracture	side_effect
+C0019569	5	Congenital megacolon	side_effect
+C0019572	10	Hirsutism	side_effect
+C0019618	3	Histiocytosis	side_effect
+C0019825	17	Voice hoarseness	symptom_sign
+C0019880	10	Homocystinuria	side_effect
+C0020175	42	Hunger	side_effect
+C0020224	19	Polyhydramnios	side_effect
+C0020255	29	Hydrocephalus	side_effect
+C0020295	10	Hydronephrosis	side_effect
+C0020302	12	Developmental glaucoma	side_effect
+C0020438	12	Hypercalciuria	side_effect
+C0020440	3	Hypercapnia	side_effect
+C0020450	4	Hyperemesis gravidarum	side_effect
+C0020458	13	Hyperhidrosis	side_effect
+C0020459	5	Hyperinsulinism	side_effect
+C0020502	8	Hyperparathyroidism	side_effect
+C0020503	2	Hyperparathyroidism secondary	side_effect
+C0020505	12	Hyperphagia	side_effect
+C0020507	18	Hyperplasia	side_effect
+C0020517	3	Hypersensitivity	side_effect
+C0020532	2	Hypersplenism	side_effect
+C0020538	138	Hypertension	side_effect
+C0020541	15	Portal hypertension	side_effect
+C0020542	18	Pulmonary hypertension	side_effect
+C0020550	10	Hyperthyroidism	side_effect
+C0020555	17	Hypertrichosis	side_effect
+C0020564	19	Hypertrophy	side_effect
+C0020578	4	Hyperventilation	side_effect
+C0020619	99	Hypogonadism	side_effect
+C0020620	15	Hypohidrosis	side_effect
+C0020626	6	Hypoparathyroidism	side_effect
+C0020635	9	Hypopituitarism	side_effect
+C0020649	40	Hypotension	side_effect
+C0020651	11	Orthostatic hypotension	side_effect
+C0020673	3	Hypothermia	symptom_sign
+C0020676	47	Hypothyroidism	side_effect
+C0020678	27	Hypotrichosis	side_effect
+C0020757	48	Ichthyosis	side_effect
+C0021051	206	Immunodeficiency	side_effect
+C0021053	4	Immune system disorder	side_effect
+C0021061	2	Immunology test	side_effect
+C0021167	22	Incontinence	side_effect
+C0021177	2	Libido increased	side_effect
+C0021290	146	Neonatal disorder	side_effect
+C0021308	28	Infarction	side_effect
+C0021313	34	Kidney infection	side_effect
+C0021359	231	Infertility	side_effect
+C0021361	59	Infertility female	side_effect
+C0021364	121	Infertility male	side_effect
+C0021368	173	Inflammation	side_effect
+C0021390	19	Inflammatory bowel disease	side_effect
+C0021400	5	Influenza	side_effect
+C0021655	47	Insulin resistance	side_effect
+C0021670	2	Insulinoma	side_effect
+C0021775	4	Intermittent claudication	side_effect
+C0021843	16	Intestinal obstruction	side_effect
+C0021933	3	Intussusception	side_effect
+C0022078	16	Iris disorder	side_effect
+C0022107	106	Irritability	side_effect
+C0022281	12	Eye pruritus	side_effect
+C0022346	134	Jaundice	side_effect
+C0022353	39	Jaundice neonatal	side_effect
+C0022354	14	Jaundice cholestatic	side_effect
+C0022362	48	Jaw disorder	side_effect
+C0022408	14	Arthropathy	side_effect
+C0022410	21	Joint instability	side_effect
+C0022548	2	Keloid scar	side_effect
+C0022568	12	Keratitis	side_effect
+C0022572	4	Keratoacanthoma	side_effect
+C0022578	4	Keratoconus	side_effect
+C0022638	4	Ketosis	side_effect
+C0022658	19	Nephropathy	side_effect
+C0022660	6	Renal failure acute	side_effect
+C0022661	4	Renal failure chronic	side_effect
+C0022665	2	Renal neoplasm	side_effect
+C0022821	38	Kyphosis	side_effect
+C0022904	3	Lacrimal disorder	side_effect
+C0023012	356	Delay language	symptom_sign
+C0023014	203	Developmental disorder language	symptom_sign
+C0023051	4	Laryngeal disorder	side_effect
+C0023186	106	Learning disorder	side_effect
+C0023212	11	Left ventricular failure	side_effect
+C0023267	2	Leiomyoma	side_effect
+C0023380	85	Lethargy	side_effect
+C0023510	2	White blood cell disorder	side_effect
+C0023518	2	Leukocytosis	side_effect
+C0023530	28	Leukopenia	side_effect
+C0023531	11	Leukoplakia	side_effect
+C0023532	11	Leukoplakia oral	side_effect
+C0023798	5	Lipoma	side_effect
+C0023885	6	Liver abscess	side_effect
+C0023890	11	Hepatic cirrhosis	side_effect
+C0023895	182	Liver disorder	side_effect
+C0023976	15	Long QT syndrome	side_effect
+C0024003	5	Lordosis	side_effect
+C0024031	4	Back pain lower back	symptom_sign
+C0024110	10	Lung abscess	side_effect
+C0024115	55	Lung disorder	side_effect
+C0024121	2	Lung neoplasm	side_effect
+C0024141	16	Systemic lupus erythematosus	side_effect
+C0024205	7	Lymphadenitis	side_effect
+C0024225	2	Lymphangitis	side_effect
+C0024228	4	Lymphatic disorder	side_effect
+C0024282	2	Lymphocytosis	side_effect
+C0024299	35	Lymphoma	side_effect
+C0024312	21	Lymphopenia	side_effect
+C0024314	14	Lymphoproliferative disorder	side_effect
+C0024437	27	Macular degeneration	side_effect
+C0024523	101	Malabsorption	side_effect
+C0024528	22	Fatigue malaise	symptom_sign
+C0024530	17	Malaria	side_effect
+C0024623	15	Gastric cancer	side_effect
+C0024902	11	Breast pain	side_effect
+C0025160	5	Megacolon	side_effect
+C0025202	10	Malignant melanoma	side_effect
+C0025274	3	Menarche	side_effect
+C0025286	8	Meningioma	side_effect
+C0025289	14	Meningitis	side_effect
+C0025320	8	Menopause	side_effect
+C0025322	4	Premature menopause	side_effect
+C0025323	36	Menorrhagia	side_effect
+C0025345	42	Menstrual disorder	side_effect
+C0025362	5	Mental retardation	side_effect
+C0025500	3	Mesothelioma	side_effect
+C0025517	186	Metabolic disorder	side_effect
+C0025958	291	Microcephaly	side_effect
+C0026205	2	Miosis	side_effect
+C0026393	6	Molluscum contagiosum	side_effect
+C0026633	2	Congenital oral malformation	side_effect
+C0026636	24	Oral disorder	side_effect
+C0026650	378	Movement disorder	side_effect
+C0026769	4	Multiple sclerosis	side_effect
+C0026821	135	Cramp	symptom_sign
+C0026826	15	Hypertonia	side_effect
+C0026827	1168	Hypotonia	side_effect
+C0026837	45	Muscle rigidity	side_effect
+C0026838	199	Muscle spasticity	side_effect
+C0026846	204	Muscle atrophy	side_effect
+C0026848	131	Myopathy	side_effect
+C0026857	21	Musculoskeletal disorder	side_effect
+C0026858	12	Musculoskeletal pain	side_effect
+C0026918	13	Mycobacterial infection	side_effect
+C0026919	6	Atypical mycobacterial infection	side_effect
+C0026946	77	Fungal infection	side_effect
+C0026986	24	Myelodysplastic syndrome	side_effect
+C0026987	5	Myelofibrosis	side_effect
+C0027022	4	Myeloproliferative disorder	side_effect
+C0027051	26	Myocardial infarction	side_effect
+C0027066	30	Myoclonus	side_effect
+C0027080	12	Myoglobinuria	side_effect
+C0027092	49	Myopia	side_effect
+C0027121	5	Myositis	side_effect
+C0027125	5	Myotonia	side_effect
+C0027339	42	Nail disorder	side_effect
+C0027404	3	Narcolepsy	side_effect
+C0027424	40	Nasal congestion	side_effect
+C0027427	4	Headache nasal	symptom_sign
+C0027429	6	Nasal obstruction	side_effect
+C0027430	4	Nasal polyps	side_effect
+C0027497	142	Nausea	side_effect
+C0027498	106	Nausea vomiting	symptom_sign
+C0027540	10	Necrosis	side_effect
+C0027627	7	Metastasis	side_effect
+C0027651	15	Neoplasm	side_effect
+C0027697	16	Nephritis	side_effect
+C0027709	24	Nephrocalcinosis	side_effect
+C0027726	50	Nephrotic syndrome	side_effect
+C0027765	36	Nervous system disorder	side_effect
+C0027769	5	Nervousness	side_effect
+C0027794	20	Neural tube defect	side_effect
+C0027813	3	Neuritis	side_effect
+C0027830	7	Neurofibroma	side_effect
+C0027858	2	Neuroma	side_effect
+C0027947	68	Neutropenia	side_effect
+C0028043	4	Nicotine dependence	side_effect
+C0028077	148	Night blindness	side_effect
+C0028081	60	Night sweats	side_effect
+C0028259	61	Nodule	side_effect
+C0028432	212	Nasal disorder	side_effect
+C0028643	65	Sensation loss	symptom_sign
+C0028734	8	Nocturia	side_effect
+C0028738	250	Nystagmus	side_effect
+C0028754	75	Obesity	side_effect
+C0028778	60	Obstruction	side_effect
+C0028840	3	Ocular hypertension	side_effect
+C0028850	53	Eye movement disorder	side_effect
+C0028961	2	Oliguria	side_effect
+C0029089	54	Ophthalmoplegia	side_effect
+C0029118	40	Opportunistic infection	side_effect
+C0029124	53	Optic atrophy	side_effect
+C0029132	9	Optic nerve disorder	side_effect
+C0029134	3	Optic neuritis	side_effect
+C0029408	30	Osteoarthritis	side_effect
+C0029434	23	Osteogenesis imperfecta	side_effect
+C0029442	12	Osteomalacia	side_effect
+C0029443	12	Osteomyelitis	side_effect
+C0029453	35	Osteopenia	side_effect
+C0029456	55	Osteoporosis	side_effect
+C0029463	5	Osteosarcoma	side_effect
+C0029464	10	Osteosclerosis	side_effect
+C0029537	30	Other chest pain	symptom_sign
+C0029645	3	Other insomnia	symptom_sign
+C0029882	100	Otitis media	side_effect
+C0029927	2	Ovarian cyst	side_effect
+C0029928	15	Ovarian disorder	side_effect
+C0030193	765	Pain	side_effect
+C0030232	159	Pallor	side_effect
+C0030252	156	Palpitations	side_effect
+C0030286	12	Pancreatic disorder	side_effect
+C0030293	17	Pancreatic insufficiency	side_effect
+C0030305	14	Pancreatitis	side_effect
+C0030312	43	Pancytopenia	side_effect
+C0030326	4	Panniculitis	side_effect
+C0030354	20	Papilloma	side_effect
+C0030469	47	Sinus disorder	side_effect
+C0030486	75	Paraplegia	side_effect
+C0030517	7	Parathyroid disorder	side_effect
+C0030552	3	Paresis	side_effect
+C0030794	34	Pelvic pain	side_effect
+C0030920	3	Peptic ulcer	side_effect
+C0030975	2	Disorders perception	symptom_sign
+C0031046	20	Pericarditis	side_effect
+C0031090	5	Periodontal disease	side_effect
+C0031099	14	Periodontitis	side_effect
+C0031117	113	Neuropathy peripheral	side_effect
+C0031154	3	Peritonitis	side_effect
+C0031212	20	Personality disorder	side_effect
+C0031256	29	Petechiae	side_effect
+C0031345	2	Pharyngeal disorder	side_effect
+C0031911	5	Pigment deposition	symptom_sign
+C0032045	2	Placental disorder	side_effect
+C0032226	2	Pleural disorder	side_effect
+C0032227	5	Pleural effusion	side_effect
+C0032285	188	Pneumonia	side_effect
+C0032326	3	Pneumothorax	side_effect
+C0032343	2	Poisoning	side_effect
+C0032460	2	Polycystic ovaries	side_effect
+C0032584	55	Polyp	side_effect
+C0032617	97	Polyuria	side_effect
+C0032961	49	Pregnancy	side_effect
+C0032962	10	Complication of pregnancy	side_effect
+C0032989	8	Multiple pregnancy	side_effect
+C0033375	2	Prolactinoma	side_effect
+C0033687	95	Proteinuria	side_effect
+C0033774	38	Pruritus	side_effect
+C0033817	2	Pseudomonas infection	side_effect
+C0033860	10	Psoriasis	side_effect
+C0033975	2	Psychotic disorder	side_effect
+C0033999	5	Pterygium	side_effect
+C0034011	71	Puberty	side_effect
+C0034012	52	Delayed puberty	side_effect
+C0034013	6	Precocious puberty	side_effect
+C0034040	4	Postpartum disorder	side_effect
+C0034050	5	Alveolar proteinosis	side_effect
+C0034065	15	Pulmonary embolism	side_effect
+C0034067	9	Emphysema	side_effect
+C0034069	34	Pulmonary fibrosis	side_effect
+C0034150	10	Purpura	side_effect
+C0034186	3	Pyelonephritis	side_effect
+C0034212	2	Pyoderma	side_effect
+C0034372	2	Quadriplegia	side_effect
+C0034642	2	Rales	side_effect
+C0034880	3	Hyperacusis	side_effect
+C0034887	7	Rectal polyp	side_effect
+C0034902	2	Aplasia pure red cell	side_effect
+C0034933	104	Reflexes abnormal	side_effect
+C0034935	28	Extensor plantar response	side_effect
+C0035078	85	Renal failure	side_effect
+C0035204	259	Respiratory disorder	side_effect
+C0035229	40	Respiratory function impaired	symptom_sign
+C0035232	3	Respiratory paralysis	side_effect
+C0035243	123	Respiratory tract infection	side_effect
+C0035304	108	Retinal degeneration	side_effect
+C0035305	34	Retinal detachment	side_effect
+C0035309	126	Retinal disorder	side_effect
+C0035321	2	Retinal tear	side_effect
+C0035333	114	Retinitis	side_effect
+C0035410	19	Rhabdomyolysis	side_effect
+C0035455	2	Rhinitis	side_effect
+C0035522	3	Rib fracture	side_effect
+C0035579	33	Rickets	side_effect
+C0036202	3	Sarcoidosis	side_effect
+C0036341	18	Schizophrenia	side_effect
+C0036396	5	Sciatica	side_effect
+C0036439	188	Scoliosis	side_effect
+C0036454	47	Scotoma	side_effect
+C0036572	15	Convulsion	side_effect
+C0036659	40	Sensation disorder	symptom_sign
+C0036749	15	Serositis	side_effect
+C0036974	26	Shock	side_effect
+C0036983	4	Septic shock	side_effect
+C0037052	3	Sick sinus syndrome	side_effect
+C0037199	122	Sinusitis	side_effect
+C0037268	20	Congenital skin disorder	side_effect
+C0037274	237	Skin disorder	side_effect
+C0037278	162	Skin infection	side_effect
+C0037284	172	Skin lesion	side_effect
+C0037286	6	Neoplasm skin	side_effect
+C0037290	83	Pigmentation skin	symptom_sign
+C0037293	2	Acrochordon	side_effect
+C0037299	55	Skin ulcer	side_effect
+C0037317	42	Sleep disturbance	symptom_sign
+C0037763	26	Muscle spasms	side_effect
+C0037771	8	Paraparesis spastic	symptom_sign
+C0037822	467	Speech disorder	side_effect
+C0037928	5	Spinal cord disorder	side_effect
+C0037933	48	Spinal disorder	side_effect
+C0037997	50	Spleen disorder	side_effect
+C0038002	107	Splenomegaly	side_effect
+C0038160	4	Staphylococcal infection	side_effect
+C0038166	3	Staphylococcal skin infection	side_effect
+C0038362	3	Stomatitis	side_effect
+C0038379	110	Strabismus	side_effect
+C0038435	163	Stress	side_effect
+C0038450	2	Stridor	side_effect
+C0038587	3	Withdrawal syndrome	side_effect
+C0038663	2	Suicide attempt	side_effect
+C0038814	18	Sunburn	side_effect
+C0038986	2	Sweat gland disorder	side_effect
+C0038990	63	Sweats	symptom_sign
+C0038999	239	Swelling	side_effect
+C0039070	120	Syncope	side_effect
+C0039075	64	Syndactyly	side_effect
+C0039231	42	Tachycardia	side_effect
+C0039236	8	Tachycardia episodic	symptom_sign
+C0039446	26	Telangiectasia	side_effect
+C0039584	22	Testicular disorder	side_effect
+C0039591	5	Testicular pain	side_effect
+C0039621	16	Tetany	side_effect
+C0039971	82	Thirst	side_effect
+C0040034	133	Thrombocytopenia	side_effect
+C0040053	31	Thrombosis	side_effect
+C0040128	26	Thyroid disorder	side_effect
+C0040147	8	Thyroiditis	side_effect
+C0040188	2	Tic	side_effect
+C0040264	58	Tinnitus	side_effect
+C0040409	19	Tongue disorder	side_effect
+C0040427	42	Tooth malformation	side_effect
+C0040435	44	Tooth disorder	side_effect
+C0040441	15	Tooth fracture	side_effect
+C0040479	14	Torsade de pointes	side_effect
+C0040485	2	Torticollis	side_effect
+C0040822	117	Tremor	side_effect
+C0041296	13	Tuberculosis	side_effect
+C0041349	6	Tubulointerstitial nephritis	side_effect
+C0041582	83	Ulcer	side_effect
+C0041657	13	Loss of consciousness	side_effect
+C0041834	74	Erythema	side_effect
+C0041912	16	Upper respiratory tract infection	side_effect
+C0042024	17	Urinary incontinence	side_effect
+C0042029	21	Urinary tract infection	side_effect
+C0042075	4	Urinary tract disorder	side_effect
+C0042109	12	Urticaria	side_effect
+C0042133	2	Uterine leiomyoma	side_effect
+C0042143	2	Uterine rupture	side_effect
+C0042164	11	Uveitis	side_effect
+C0042251	4	Vaginal disorder	side_effect
+C0042373	5	Angiopathy	side_effect
+C0042376	12	Vascular headache	side_effect
+C0042384	5	Vasculitis	side_effect
+C0042487	18	Venous thrombosis	side_effect
+C0042510	16	Ventricular fibrillation	side_effect
+C0042514	20	Ventricular tachycardia	side_effect
+C0042571	10	Vertigo	side_effect
+C0042594	6	Vestibular disorder	side_effect
+C0042721	3	Hepatitis viral	side_effect
+C0042769	90	Viral infection	side_effect
+C0042798	27	Vision dim	symptom_sign
+C0042847	4	Vitamin B12 deficiency	side_effect
+C0042880	4	Vitamin K deficiency	side_effect
+C0042907	11	Vitreous detachment	side_effect
+C0042940	4	Disorder of voice	symptom_sign
+C0042961	9	Volvulus	side_effect
+C0042963	193	Vomiting	side_effect
+C0042965	193	Vomit	symptom_sign
+C0043094	87	Weight increased	side_effect
+C0043096	18	Weight decreased	side_effect
+C0043144	28	Wheezing	side_effect
+C0043241	30	Wound infection	side_effect
+C0043250	49	Wound	side_effect
+C0043345	12	Xeroderma	side_effect
+C0043352	6	Dry mouth	side_effect
+C0079102	2	Cerebral thrombosis	side_effect
+C0079924	8	Oligohydramnios	side_effect
+C0080178	6	Spina bifida	side_effect
+C0080179	11	Spinal fracture	side_effect
+C0080203	3	Tachyarrhythmia	side_effect
+C0080233	42	Tooth loss	side_effect
+C0080274	5	Urinary retention	side_effect
+C0080276	9	Urogenital disorder	side_effect
+C0085136	2	Central nervous system neoplasm	side_effect
+C0085298	43	Sudden cardiac death	side_effect
+C0085437	9	Meningitis bacterial	side_effect
+C0085580	12	Essential hypertension	side_effect
+C0085583	6	Choreoathetosis	side_effect
+C0085584	259	Encephalopathy	side_effect
+C0085593	28	Chills	side_effect
+C0085594	2	Chills and fever	symptom_sign
+C0085602	85	Polydipsia	side_effect
+C0085605	43	Hepatic failure	side_effect
+C0085607	2	Volume blood increased	side_effect
+C0085610	4	Sinus bradycardia	side_effect
+C0085612	55	Ventricular arrhythmia	side_effect
+C0085620	2	Paralysis flaccid	side_effect
+C0085623	26	Akinesia	side_effect
+C0085624	19	Burning sensation	side_effect
+C0085631	7	Agitation	side_effect
+C0085632	29	Apathy	side_effect
+C0085633	4	Mood swings	side_effect
+C0085635	2	Photopsia	side_effect
+C0085636	105	Photophobia	side_effect
+C0085639	75	Fall	side_effect
+C0085641	4	Rash pustular	side_effect
+C0085642	4	Livedo reticularis	side_effect
+C0085650	3	Purpura fulminans	side_effect
+C0085652	2	Pyoderma gangrenosum	side_effect
+C0085661	3	Onycholysis	side_effect
+C0085694	2	Cholecystitis chronic	side_effect
+C0086132	4	Depressive symptom	side_effect
+C0086395	8	Extreme hearing loss	symptom_sign
+C0086437	63	Joint hypermobility	symptom_sign
+C0086543	163	Cataract	side_effect
+C0086565	15	Hepatic function abnormal	side_effect
+C0086692	3	Benign neoplasm	side_effect
+C0087169	22	Withdrawal symptoms	symptom_sign
+C0149516	85	Chronic sinusitis	side_effect
+C0149520	2	Cholecystitis acute	side_effect
+C0149521	5	Pancreatitis chronic	side_effect
+C0149651	20	Clubbing	side_effect
+C0149721	3	Left ventricular hypertrophy	side_effect
+C0149725	17	Lower respiratory tract infection	side_effect
+C0149736	27	Neck mass	symptom_sign
+C0149738	57	Neurological pain	symptom_sign
+C0149741	11	Breast discharge	side_effect
+C0149745	2	Mouth ulceration	side_effect
+C0149777	32	Skin abscess	symptom_sign
+C0149778	13	Soft tissue infection	side_effect
+C0149871	11	Deep vein thrombosis	side_effect
+C0149892	2	Gingival abscess	side_effect
+C0149931	18	Migraine	side_effect
+C0149958	3	Complex partial seizures	side_effect
+C0150045	18	Urge incontinence	side_effect
+C0150055	100	Pain chronic	symptom_sign
+C0150841	10	Muscle pain or weakness	symptom_sign
+C0150908	271	Weight loss	symptom_sign
+C0151263	5	Nausea or abdominal pain	symptom_sign
+C0151281	2	Genital ulceration	side_effect
+C0151313	38	Peripheral sensory neuropathy	side_effect
+C0151315	2	Neck rigid	symptom_sign
+C0151465	2	Renal abscess	side_effect
+C0151468	5	Thyroid adenoma	side_effect
+C0151477	26	Hormone level abnormal	side_effect
+C0151514	17	Skin atrophy	side_effect
+C0151544	5	Gastrointestinal carcinoma	side_effect
+C0151571	7	Corneal lesion	side_effect
+C0151574	2	Cough decreased	side_effect
+C0151602	23	Swelling face	side_effect
+C0151611	57	Electroencephalogram abnormal	side_effect
+C0151622	3	Endometrial disorder	side_effect
+C0151650	41	Kidney fibrosis	side_effect
+C0151683	8	Neutrophil count increased	side_effect
+C0151684	25	Granuloma skin	side_effect
+C0151685	10	Growth accelerated	side_effect
+C0151686	275	Growth retardation	side_effect
+C0151692	9	Impaired healing	side_effect
+C0151717	8	Skin hypertrophy	side_effect
+C0151721	45	Hypogonadism male	side_effect
+C0151729	17	Immunoglobulins increased	side_effect
+C0151740	5	Intracranial pressure increased	side_effect
+C0151747	2	Renal tubular disorder	side_effect
+C0151766	4	Liver function test abnormal	side_effect
+C0151785	2	Mucous membrane disorder	side_effect
+C0151786	93	Muscular weakness	side_effect
+C0151791	6	Nausea vomiting and diarrhea	symptom_sign
+C0151799	5	Skin necrosis	side_effect
+C0151825	139	Bone pain	side_effect
+C0151827	80	Eye pain	side_effect
+C0151878	8	Electrocardiogram QT prolonged	side_effect
+C0151889	97	Hyperreflexia	side_effect
+C0151892	21	Retinal pigmentation	side_effect
+C0151908	51	Dry skin	side_effect
+C0151936	73	Tendon disorder	side_effect
+C0151942	3	Arterial thrombosis	side_effect
+C0151946	15	Pulmonary thrombosis	side_effect
+C0151971	2	Intestinal ulcer	side_effect
+C0151994	2	Uterine enlargement	side_effect
+C0152006	4	Vitreous opacities	side_effect
+C0152025	8	Polyneuropathy	side_effect
+C0152027	34	Sensory disturbance	side_effect
+C0152029	34	Sinus congestion	side_effect
+C0152030	16	Skin irritation	side_effect
+C0152031	35	Joint swelling	side_effect
+C0152081	2	Pustular psoriasis	side_effect
+C0152165	12	Vomiting persistent	symptom_sign
+C0152169	10	Renal colic	side_effect
+C0152427	86	Polydactyly	side_effect
+C0152459	9	Skin striae	side_effect
+C0153567	4	Uterine cancer	side_effect
+C0154933	6	Iris adhesions	side_effect
+C0155002	5	Sudden visual loss	side_effect
+C0155015	7	Red color blindness	symptom_sign
+C0155118	3	Corneal degeneration	side_effect
+C0155216	12	Eyelid bleeding	side_effect
+C0155320	2	Blindness cortical	side_effect
+C0155365	3	Vitreous disorder	side_effect
+C0155388	3	External ear disorder	side_effect
+C0155552	7	Hearing loss mixed	symptom_sign
+C0155616	16	Secondary hypertension	side_effect
+C0155626	2	Acute myocardial infarction	side_effect
+C0155765	6	Microangiopathy	side_effect
+C0156279	2	Urethral syndrome	side_effect
+C0156312	8	Testicular atrophy	side_effect
+C0156404	2	Menstruation irregular	side_effect
+C0158328	2	Trigger finger	side_effect
+C0158570	2	Vascular anomaly	side_effect
+C0158687	11	Congenital genital malformation	side_effect
+C0158775	25	Spine malformation	side_effect
+C0159028	1149	General symptom	side_effect
+C0159040	3	Skin texture changes	symptom_sign
+C0159054	2	Sputum abnormal	symptom_sign
+C0160390	8	Liver injury	side_effect
+C0162281	9	Corneal deposits	side_effect
+C0162283	2	Nephrogenic diabetes insipidus	side_effect
+C0162298	70	Joint stiffness	side_effect
+C0162429	8	Malnutrition	side_effect
+C0162557	2	Acute hepatic failure	side_effect
+C0162565	3	Porphyria acute	side_effect
+C0162627	32	Skin bacterial infection	side_effect
+C0162628	22	Viral skin infection	side_effect
+C0162638	4	Apoptosis	side_effect
+C0162678	7	Neurofibromatosis	side_effect
+C0162739	2	HELLP syndrome	side_effect
+C0162830	6	Photosensitivity reaction	side_effect
+C0162834	40	Skin hyperpigmentation	side_effect
+C0178282	6	Abdominal hernia	side_effect
+C0178417	7	Anhedonia	side_effect
+C0178422	7	Foot cramps	symptom_sign
+C0178703	2	Hypertrophic osteoarthropathy	side_effect
+C0178879	9	Urinary tract obstruction	side_effect
+C0184567	73	Pain acute	symptom_sign
+C0205929	3	Anal fistula	side_effect
+C0206062	13	Interstitial lung disease	side_effect
+C0206160	6	Reticulocytosis	side_effect
+C0206624	2	Hepatoblastoma	side_effect
+C0206633	3	Angiomyolipoma	side_effect
+C0206762	148	Limb malformation	side_effect
+C0220981	171	Metabolic acidosis	side_effect
+C0220982	12	Ketoacidosis	side_effect
+C0220983	18	Metabolic alkalosis	side_effect
+C0221002	3	Hyperparathyroidism primary	side_effect
+C0221161	3	Breathing shallow	symptom_sign
+C0221165	3	Diplegia	side_effect
+C0221166	8	Paraparesis	side_effect
+C0221170	104	Stiffness muscle	symptom_sign
+C0221184	4	Hemianopsia bitemporal	symptom_sign
+C0221204	6	Osteolysis	side_effect
+C0221245	15	Skin fissures	side_effect
+C0221260	55	Nail dystrophy	side_effect
+C0221265	3	Microcytosis	side_effect
+C0221505	35	Brain lesion	symptom_sign
+C0221599	8	Morning stiffness	symptom_sign
+C0221743	16	Skin reaction	side_effect
+C0221752	118	Blood urine	side_effect
+C0221758	10	Back stiffness	symptom_sign
+C0221760	35	Brain cyst	symptom_sign
+C0221776	19	Oral pain	side_effect
+C0221782	2	Uterine mass	side_effect
+C0227791	4	Vaginal discharge	side_effect
+C0228505	47	Nodules	symptom_sign
+C0231170	1073	Disability	side_effect
+C0231218	41	Malaise	side_effect
+C0231230	10	Fatigability	symptom_sign
+C0231246	6	Weight gain poor	side_effect
+C0231341	18	Aging premature	symptom_sign
+C0231367	21	Activity intolerance	symptom_sign
+C0231471	62	Posture abnormal	side_effect
+C0231523	4	Central muscle fatigue	symptom_sign
+C0231528	35	Myalgia	side_effect
+C0231529	16	Tendon pain	side_effect
+C0231530	20	Muscle twitching	side_effect
+C0231557	74	Bone development abnormal	side_effect
+C0231608	4	Girdle pain	symptom_sign
+C0231655	2	Scapular pain	symptom_sign
+C0231667	9	Wrist sign	symptom_sign
+C0231710	5	Buttock pain	symptom_sign
+C0231712	13	Gait waddling	symptom_sign
+C0231736	2	Draw sign	symptom_sign
+C0231772	14	Burn feet	symptom_sign
+C0231791	35	In toe	symptom_sign
+C0231792	4	Out toe	symptom_sign
+C0231796	159	Respiratory abnormalities	symptom_sign
+C0231856	5	Breath sounds abnormal	side_effect
+C0232193	3	Pacemaker rhythm	symptom_sign
+C0232197	11	Cardiac fibrillation	side_effect
+C0232201	3	Sinus rhythm	side_effect
+C0232288	6	Exertional chest pain	symptom_sign
+C0232409	29	Hair growth abnormal	side_effect
+C0232431	7	Cold sweat	side_effect
+C0232461	24	Increased appetite	side_effect
+C0232462	2	Decreased appetite	side_effect
+C0232466	473	Feeding difficulties	symptom_sign
+C0232487	96	Abdominal discomfort	side_effect
+C0232488	13	Colic	symptom_sign
+C0232492	27	Abdominal pain upper	side_effect
+C0232493	13	Epigastric pain	symptom_sign
+C0232495	4	Abdominal pain lower	side_effect
+C0232498	3	Abdominal tenderness	side_effect
+C0232513	5	Premature tooth loss	symptom_sign
+C0232533	7	Esophageal chest pain	symptom_sign
+C0232597	28	Acute vomiting	symptom_sign
+C0232598	29	Vomit chronic	symptom_sign
+C0232607	5	Chronic regurgitation	symptom_sign
+C0232717	2	Rectal sensation	symptom_sign
+C0232841	39	Bladder dysfunction	side_effect
+C0232849	11	Bladder pain	side_effect
+C0232982	8	Complete spermatogenic arrest	symptom_sign
+C0233179	2	Clinical signs related to pregnancy	symptom_sign
+C0233205	10	Halo sign	symptom_sign
+C0233240	13	Fetal signs	symptom_sign
+C0233401	56	Psychiatric symptom	side_effect
+C0233407	12	Disorientation	side_effect
+C0233414	3	Disturbance in attention	side_effect
+C0233459	21	Emotional disorder	side_effect
+C0233467	16	Inappropriate affect	side_effect
+C0233469	4	Blunted affect	side_effect
+C0233470	7	Affect constricted	symptom_sign
+C0233471	104	Flat affect	side_effect
+C0233479	7	Elevated mood	side_effect
+C0233494	6	Tension	side_effect
+C0233509	4	Mood hypersomnia	symptom_sign
+C0233565	49	Bradykinesia	side_effect
+C0233718	2	Pressure of speech	side_effect
+C0233773	2	Hypnagogic hallucination	side_effect
+C0233794	35	Memory impairment	side_effect
+C0233844	15	Clumsiness	side_effect
+C0234131	202	Motor dysfunction	side_effect
+C0234132	34	Pyramidal sign	symptom_sign
+C0234146	7	Areflexia	side_effect
+C0234215	300	Discomfort	side_effect
+C0234222	8	Sensation of pressure	side_effect
+C0234229	35	Deep pain	symptom_sign
+C0234230	46	Burn pain	symptom_sign
+C0234233	37	Tenderness	side_effect
+C0234235	3	Tissue sensitivity	symptom_sign
+C0234238	15	Ache	symptom_sign
+C0234242	13	Pain and tenderness	symptom_sign
+C0234243	21	Central pain	symptom_sign
+C0234244	33	Pain somatic	symptom_sign
+C0234251	43	Inflammatory pain	symptom_sign
+C0234252	7	Mechanical pain	symptom_sign
+C0234253	20	Rest pain	symptom_sign
+C0234254	17	Pain radiating	symptom_sign
+C0234255	47	Night pain	symptom_sign
+C0234366	5	Ataxic	symptom_sign
+C0234369	4	Tremulous	symptom_sign
+C0234370	3	Persistent tremor	symptom_sign
+C0234372	3	Intermittent tremor	symptom_sign
+C0234373	11	Fine tremor	symptom_sign
+C0234376	16	Action tremor	side_effect
+C0234377	2	Passive tremor	symptom_sign
+C0234378	42	Postural tremor	symptom_sign
+C0234428	11	Consciousness disturbance	symptom_sign
+C0234458	2	Abnormal dreams	side_effect
+C0234518	82	Speech slurred	symptom_sign
+C0234533	52	Seizure generalized	symptom_sign
+C0234615	8	Cord sign	symptom_sign
+C0234632	14	Visual acuity reduced	side_effect
+C0234654	11	Eye and eyelid symptom	symptom_sign
+C0234655	5	Eye burning	symptom_sign
+C0234708	2	Intraocular pressure increased	side_effect
+C0234913	10	Rash erythematous	side_effect
+C0234979	19	Dysdiadochokinesia	symptom_sign
+C0234988	4	Dizziness exertional	side_effect
+C0235002	24	Head discomfort	side_effect
+C0235014	2	Fontanelle bulging	side_effect
+C0235018	2	Numbness localized	symptom_sign
+C0235025	30	Peripheral motor neuropathy	side_effect
+C0235031	1098	Neurological symptom	side_effect
+C0235050	5	Skin tingling	symptom_sign
+C0235055	6	Paralysis skeletal muscle	symptom_sign
+C0235063	2	Respiratory depression	side_effect
+C0235082	64	Muscle tremor	symptom_sign
+C0235086	4	Muscle contractions involuntary	side_effect
+C0235113	2	Emotional poverty	side_effect
+C0235153	3	Sensory hallucination	symptom_sign
+C0235160	4	Restless sleep	symptom_sign
+C0235169	4	Excitability	symptom_sign
+C0235195	2	Sedation	side_effect
+C0235222	2	Diastolic hypertension	side_effect
+C0235240	7	Heart pounding	symptom_sign
+C0235242	10	Syncope exertional	symptom_sign
+C0235259	6	Cataract subcapsular	side_effect
+C0235266	13	Eye irritation	side_effect
+C0235267	5	Eye redness	symptom_sign
+C0235270	2	Keratopathy	side_effect
+C0235283	3	Buzzing of ears	symptom_sign
+C0235284	2	Crack ear	symptom_sign
+C0235295	6	Distress abdominal	symptom_sign
+C0235329	5	Small intestinal obstruction	side_effect
+C0235338	2	Salivary gland pain	side_effect
+C0235357	31	Tooth hypoplasia	side_effect
+C0235433	5	Fat tissue increased	side_effect
+C0235522	5	Vein disorder	side_effect
+C0235524	6	Pain vein	symptom_sign
+C0235557	11	Pulmonary granuloma	side_effect
+C0235639	4	Urine abnormality	side_effect
+C0235710	91	Chest discomfort	side_effect
+C0235712	2	Chest symptom fullness	symptom_sign
+C0235777	8	Neonatal cyanosis	symptom_sign
+C0235778	26	Dyskinesia neonatal	symptom_sign
+C0235807	5	Hair texture abnormal	side_effect
+C0235832	17	Hernia congenital	side_effect
+C0235833	2	Congenital diaphragmatic hernia	side_effect
+C0235839	3	Fever neonatal	side_effect
+C0235942	18	Skull malformation	side_effect
+C0235946	39	Cerebral atrophy	side_effect
+C0235972	53	Retinal deposits	side_effect
+C0235974	4	Pancreatic carcinoma	side_effect
+C0235999	3	Neck pain shoulder	symptom_sign
+C0236000	6	Pain in jaw	side_effect
+C0236018	18	Aura	side_effect
+C0236023	2	Periodontal destruction	side_effect
+C0236053	4	Mucosal ulceration	side_effect
+C0236061	8	Haptoglobin increased	side_effect
+C0236080	3	Discomfort vagina	symptom_sign
+C0236081	2	Pressure in vagina	symptom_sign
+C0236082	3	Pain in vagina	symptom_sign
+C0236124	17	Gastrointestinal obstruction	side_effect
+C0236171	25	Infection susceptibility increased	side_effect
+C0236816	4	Acute stress disorder	side_effect
+C0236826	20	Expressive language disorder	side_effect
+C0237849	2	Skin exfoliation	side_effect
+C0237938	7	Gastrointestinal ulcer	side_effect
+C0238463	4	Papillary thyroid cancer	side_effect
+C0238621	10	Aminoaciduria	side_effect
+C0238637	2	Anus pain	symptom_sign
+C0238656	19	Pain ankle	symptom_sign
+C0238741	4	Back pain upper back	symptom_sign
+C0238742	2	Back paresthesia	symptom_sign
+C0238792	27	Bone lesion	side_effect
+C0238807	9	Bone tenderness	symptom_sign
+C0238973	6	Cheek pain	symptom_sign
+C0239134	21	Productive cough	side_effect
+C0239161	2	Dactylitis	side_effect
+C0239181	2	Diarrhea intermittent	symptom_sign
+C0239182	23	Diarrhea watery	symptom_sign
+C0239230	6	Ear tenderness	symptom_sign
+C0239233	24	Early satiety	side_effect
+C0239234	46	Low set ears	side_effect
+C0239266	9	Elbow pain	symptom_sign
+C0239272	7	Elbow stiffness	symptom_sign
+C0239284	14	Epiphyseal pain	symptom_sign
+C0239337	6	Limb deformity	side_effect
+C0239430	2	Eye movement pain	symptom_sign
+C0239511	4	Facial numbness	symptom_sign
+C0239517	2	Face paresthesia	symptom_sign
+C0239549	120	Fat intolerance	side_effect
+C0239589	19	Finger pain	symptom_sign
+C0239596	13	Finger stiffness	symptom_sign
+C0239667	4	Forearm pain	symptom_sign
+C0239725	6	Genital pain	side_effect
+C0239729	3	Genital rash	side_effect
+C0239762	2	Gonadal pain	symptom_sign
+C0239779	4	Grimacing	side_effect
+C0239783	16	Groin pain	side_effect
+C0239814	5	Hand burning sensation	symptom_sign
+C0239816	3	Hand dermatitis	side_effect
+C0239819	12	Hand edema	symptom_sign
+C0239832	34	Hand numbness	symptom_sign
+C0239836	2	Hand paresthesia	symptom_sign
+C0239886	3	Headache frontal	symptom_sign
+C0239888	19	Headache recurrent	symptom_sign
+C0239946	28	Hepatic fibrosis	side_effect
+C0239957	17	Hip stiffness	symptom_sign
+C0240066	15	Iron deficiency	side_effect
+C0240094	6	Joint tenderness	symptom_sign
+C0240129	17	Knee stiffness	symptom_sign
+C0240165	2	Laryngeal pressure sensation	symptom_sign
+C0240194	8	Lip cyanosis	symptom_sign
+C0240211	21	Lip swelling	side_effect
+C0240315	3	Median nerve pain	symptom_sign
+C0240322	5	Menstruation delayed	side_effect
+C0240352	6	Morning nausea	symptom_sign
+C0240382	5	Mouth swelling	symptom_sign
+C0240417	15	Muscle mass	side_effect
+C0240419	4	Tenderness muscle	symptom_sign
+C0240444	27	Nail thickening	symptom_sign
+C0240515	13	Nipple pain	side_effect
+C0240520	2	Nipple swelling	side_effect
+C0240521	4	Nipple tenderness	symptom_sign
+C0240564	25	Nose pain	symptom_sign
+C0240682	2	Pelvic girdle pain	symptom_sign
+C0240735	47	Personality change	side_effect
+C0240805	2	Prodrome	symptom_sign
+C0240928	3	Salt craving	symptom_sign
+C0240940	7	Scalp pain	symptom_sign
+C0240991	29	Sensory ataxia	symptom_sign
+C0241032	2	Shin pain	symptom_sign
+C0241037	6	Shoulder mass	symptom_sign
+C0241042	4	Shoulder stiffness	symptom_sign
+C0241057	4	Skin burning sensation	side_effect
+C0241069	21	Skin erosion	side_effect
+C0241136	111	Pain of skin	side_effect
+C0241137	23	Skin pallor	symptom_sign
+C0241144	14	Skin petechiae	symptom_sign
+C0241157	3	Skin pustule	symptom_sign
+C0241164	10	Skin tenderness	symptom_sign
+C0241165	71	Skin thickening	symptom_sign
+C0241210	11	Speaking delay	symptom_sign
+C0241353	2	Testicle mass	symptom_sign
+C0241379	58	Increased thirst	symptom_sign
+C0241394	3	Thumb pain	symptom_sign
+C0241442	2	Protrusion tongue	side_effect
+C0241494	25	Trunk pain	symptom_sign
+C0241681	13	Vision distortion	symptom_sign
+C0241695	9	Visual light halo	symptom_sign
+C0241700	6	Voice fatigue	symptom_sign
+C0241727	17	Walking pain	symptom_sign
+C0241745	10	Wound pain	symptom_sign
+C0241756	8	Wrist muscle weakness	symptom_sign
+C0241759	7	Wrist stiffness	symptom_sign
+C0241850	50	Coordination deficit	symptom_sign
+C0241898	11	Generalized fatigue	symptom_sign
+C0241910	2	Autoimmune hepatitis	side_effect
+C0241981	70	Loss of balance	symptom_sign
+C0242002	2	Mucus diarrhea	symptom_sign
+C0242030	9	Pain with eating	symptom_sign
+C0242073	8	Pulmonary congestion	side_effect
+C0242104	9	Sputum production	symptom_sign
+C0242155	40	Urinary pain	symptom_sign
+C0242350	8	Erectile dysfunction	side_effect
+C0242422	47	Parkinsonism	side_effect
+C0242584	23	Autoimmune thrombocytopenia	side_effect
+C0242656	115	Disease progression	side_effect
+C0242936	3	Center pain	symptom_sign
+C0242973	10	Ventricular dysfunction	side_effect
+C0242979	79	Muscle fatigue	side_effect
+C0243001	4	Abdominal abscess	side_effect
+C0243026	21	Sepsis	side_effect
+C0243065	67	Aplasia	side_effect
+C0259749	16	Autonomic neuropathy	side_effect
+C0259817	3	Xerosis	side_effect
+C0262397	3	Breast tenderness	side_effect
+C0262451	11	Diminished hearing	symptom_sign
+C0262469	3	Embolic stroke	side_effect
+C0262613	15	Renal mass	side_effect
+C0262977	2	Skin depigmentation	side_effect
+C0262985	2	Dermatitis psoriasiform	side_effect
+C0263008	34	Skin fibrosis	side_effect
+C0263383	5	Keratosis pilaris	side_effect
+C0263536	3	Nail hypertrophy	side_effect
+C0263888	31	Back disorder	side_effect
+C0263978	4	Soft tissue disorder	side_effect
+C0264009	5	Osteodystrophy	side_effect
+C0264267	7	Nasal ulcer	side_effect
+C0264344	23	Bronchitis bacterial	side_effect
+C0264523	6	Pulmonary ossification	side_effect
+C0264611	5	Apraxia of speech	symptom_sign
+C0264714	2	Cardiac failure acute	side_effect
+C0264886	26	Conduction disorder	side_effect
+C0265294	41	Metaphyseal dysplasia	side_effect
+C0265547	5	Limb reduction defect	side_effect
+C0265783	52	Pulmonary hypoplasia	side_effect
+C0266011	2	Supernumerary nipple	side_effect
+C0266316	6	Congenital hydronephrosis	side_effect
+C0266589	157	Ear malformation	side_effect
+C0267028	25	Lip pain	side_effect
+C0267792	2	Hepatobiliary disease	side_effect
+C0267834	19	Hepatic cyst	side_effect
+C0267925	2	Bile duct stenosis	side_effect
+C0268000	26	Fluid retention	side_effect
+C0268407	5	Cardiac amyloidosis	side_effect
+C0268800	4	Congenital renal cyst	side_effect
+C0270274	19	Vomiting neonatal	side_effect
+C0270611	4	Brain injury	side_effect
+C0270612	37	Leukoencephalopathy	side_effect
+C0270736	5	Essential tremor	side_effect
+C0270790	2	Quadriparesis	side_effect
+C0270844	9	Tonic convulsion	side_effect
+C0270921	26	Axonal neuropathy	side_effect
+C0270996	39	Eye swelling	side_effect
+C0271160	13	Cataract cortical	side_effect
+C0271185	26	Metamorphopsia	symptom_sign
+C0271188	15	Visual halos	symptom_sign
+C0271215	3	Blindness legal	symptom_sign
+C0271411	6	Ear pain referred	symptom_sign
+C0271441	30	Otitis media chronic	side_effect
+C0271623	33	Secondary hypogonadism	side_effect
+C0272396	3	Lymph node abscess	side_effect
+C0272412	2	Spleen abscess	symptom_sign
+C0272426	2	Mouth injury	side_effect
+C0273482	25	Nerve compression	side_effect
+C0274435	8	Transfusion reaction	side_effect
+C0276141	7	Bronchitis viral	side_effect
+C0276226	5	Herpes simplex encephalitis	side_effect
+C0277788	3	Pathognomonic symptom	symptom_sign
+C0277792	3	Pathognomonic sign	symptom_sign
+C0277797	7	Afebrile	symptom_sign
+C0277799	5	Fever intermittent	symptom_sign
+C0277821	4	Extrapyramidal rigidity	symptom_sign
+C0277873	2	Nasal flaring	symptom_sign
+C0277965	2	Abnormal food appetite	symptom_sign
+C0278008	10	Change of bowel habit	side_effect
+C0278012	7	Red stool	symptom_sign
+C0278134	114	Sensory loss	side_effect
+C0278139	6	Moderate pain	symptom_sign
+C0278140	125	Pain severe	symptom_sign
+C0278144	2	Dull pain	symptom_sign
+C0278147	3	Radicular pain	side_effect
+C0278151	2	Facial spasm	side_effect
+C0278234	4	Cherry red spot	symptom_sign
+C0281784	2	Meningioma benign	side_effect
+C0281913	18	Muscle swelling	side_effect
+C0281981	25	Skin mass	side_effect
+C0281982	53	Skin swelling	side_effect
+C0282160	11	Aplasia cutis congenita	side_effect
+C0282193	23	Iron overload	side_effect
+C0302142	26	Deformity	symptom_sign
+C0302148	39	Blood clot	symptom_sign
+C0302295	43	Eruption	symptom_sign
+C0302314	22	Xanthoma	side_effect
+C0302807	3	Agitation mental	symptom_sign
+C0302809	2	Hepatitis fulminant	side_effect
+C0311222	2	Painful swollen joints	symptom_sign
+C0311245	4	Congenital cystic kidney disease	side_effect
+C0311277	31	Central obesity	side_effect
+C0311394	59	Walking disability	side_effect
+C0311395	2	Limping	symptom_sign
+C0311468	8	Blood bilirubin increased	side_effect
+C0314719	16	Dry eye	side_effect
+C0332534	2	Induration	side_effect
+C0332544	19	Weight gain abnormal	symptom_sign
+C0332563	54	Papule	side_effect
+C0332573	21	Macule	side_effect
+C0333240	7	Acute edema	symptom_sign
+C0333245	3	Massive edema	symptom_sign
+C0333262	4	Vesicles	symptom_sign
+C0333271	7	Bloody discharge	side_effect
+C0333355	3	Mucosal inflammation	side_effect
+C0333472	17	Epidermolysis	side_effect
+C0333641	362	Atrophy	side_effect
+C0334044	316	Dysplasia	side_effect
+C0338480	2	Migraine without aura	side_effect
+C0339383	4	Chorioretinopathy	side_effect
+C0339916	3	Viral upper respiratory tract infection	side_effect
+C0339961	35	Pneumonia fungal	side_effect
+C0340279	10	Ventricular hypertrophy	side_effect
+C0340643	12	Aortic dissection	side_effect
+C0340726	8	Embolism venous	side_effect
+C0341012	2	Oral herpes	side_effect
+C0342257	7	Diabetic complication	side_effect
+C0342311	4	Neuroglycopenia	side_effect
+C0342579	53	Electrolyte imbalance	side_effect
+C0342592	2	Anion gap increased	side_effect
+C0342649	5	Vascular calcification	side_effect
+C0343026	20	Nail infection	side_effect
+C0343863	3	Genital candidiasis	side_effect
+C0344232	87	Vision blurred	side_effect
+C0344240	28	Irregular nystagmus	symptom_sign
+C0344246	5	Postural nystagmus	symptom_sign
+C0344315	7	Depressed mood	side_effect
+C0344365	2	Incomplete emptying of bladder	symptom_sign
+C0345996	14	Milia	side_effect
+C0347390	10	Skin papilloma	side_effect
+C0347555	11	Friction blister	symptom_sign
+C0347940	42	Chest swelling	symptom_sign
+C0347941	10	Chest mass	symptom_sign
+C0347943	4	Mass pelvic	symptom_sign
+C0349410	105	Organ failure	side_effect
+C0349506	23	Sun sensitivity	symptom_sign
+C0349588	500	Stature short	symptom_sign
+C0349702	3	Corneal scar	side_effect
+C0373705	2	Progesterone	side_effect
+C0376288	23	Amaurosis	side_effect
+C0376297	44	Cardiac death	side_effect
+C0376358	15	Prostate cancer	side_effect
+C0391996	4	Hepatic atrophy	side_effect
+C0392163	7	Corneal erosion	side_effect
+C0392185	27	Repetitive speech	side_effect
+C0392386	5	Platelet count decreased	side_effect
+C0392519	3	Calcium deficiency	side_effect
+C0392525	21	Nephrolithiasis	side_effect
+C0392557	11	Cataract nuclear	side_effect
+C0392678	36	Impaired swallowing	symptom_sign
+C0392685	3	Chest pain at rest	symptom_sign
+C0392702	101	Abnormal involuntary movement	symptom_sign
+C0392703	2	Shakiness	symptom_sign
+C0393610	2	Diurnal dystonia	symptom_sign
+C0393615	13	Familial tremor	side_effect
+C0395971	72	Dominant sensorineural hearing loss	symptom_sign
+C0395973	130	Recessive sensorineural hearing loss	symptom_sign
+C0398625	6	Protein C deficiency	side_effect
+C0399459	3	Oral discomfort	side_effect
+C0399461	5	Oral mucosa erosion	side_effect
+C0400930	2	Chronic hepatic failure	side_effect
+C0401149	27	Constipation chronic	symptom_sign
+C0401155	2	Double incontinence	symptom_sign
+C0401157	5	Intermittent vomiting	symptom_sign
+C0405479	21	Nipple disorder	side_effect
+C0406146	4	Meningococcal rash	symptom_sign
+C0406458	4	Diffuse alopecia	side_effect
+C0406833	8	Red wound	symptom_sign
+C0409497	4	Joint injury	side_effect
+C0410256	6	Muscle injury	side_effect
+C0410740	4	Finger deformity	side_effect
+C0410916	9	Death neonatal	side_effect
+C0422879	3	Cns symptom	symptom_sign
+C0422974	19	Halo vision	side_effect
+C0423006	5	Eye discharge	side_effect
+C0423086	7	Staring	side_effect
+C0423517	3	Blood discharge from ear	symptom_sign
+C0423571	10	Abnormal sensations	symptom_sign
+C0423575	6	Altered sensation	symptom_sign
+C0423618	3	Headache throbbing	symptom_sign
+C0423622	2	Parietal headache	symptom_sign
+C0423628	6	Pain teeth	symptom_sign
+C0423636	8	Cardiac chest pain	symptom_sign
+C0423644	3	Central abdominal pain	symptom_sign
+C0423653	10	Abdominal pain type	symptom_sign
+C0423665	10	Hand joint pain	symptom_sign
+C0423669	6	Elbows joint pain	symptom_sign
+C0423670	4	Shoulder pain joint	symptom_sign
+C0423673	13	Spine pain	symptom_sign
+C0423674	2	Cervical spine pain	symptom_sign
+C0423684	2	Back pain thoracic	symptom_sign
+C0423701	7	Urinary tract pain	side_effect
+C0423703	31	Gu pain	symptom_sign
+C0423732	63	After pain	symptom_sign
+C0423773	34	Skin scaly	symptom_sign
+C0423813	3	Crack nail	symptom_sign
+C0423820	5	Nail ridging	side_effect
+C0423847	6	Growth of eyelashes	side_effect
+C0424000	4	Suicidal ideation	side_effect
+C0424068	15	Hear voices	symptom_sign
+C0424230	21	Psychomotor retardation	side_effect
+C0424284	2	Sleep automatism	symptom_sign
+C0424296	17	Disinhibition	side_effect
+C0424605	1611	Developmental delay	side_effect
+C0424641	3	Height decrease	symptom_sign
+C0424755	230	Fever symptoms	symptom_sign
+C0424768	19	Fever prolong	symptom_sign
+C0424805	454	Breath symptom	symptom_sign
+C0424810	13	Periorbital swelling	symptom_sign
+C0424811	50	Leg swelling symptom	symptom_sign
+C0425481	2	Sigh	symptom_sign
+C0425488	2	Pant	symptom_sign
+C0425508	3	Night cough present	symptom_sign
+C0426359	69	Urinary sign	symptom_sign
+C0426373	4	Incomplete urination	symptom_sign
+C0426396	35	Dark urine	symptom_sign
+C0426481	113	Symptoms tooth	symptom_sign
+C0426487	101	Mouth symptoms	symptom_sign
+C0426498	4	Tongue dry	side_effect
+C0426576	283	Gastrointestinal symptom	symptom_sign
+C0426579	5	Anorexia symptom	symptom_sign
+C0426590	74	Symptom thirst	symptom_sign
+C0426633	10	Indigestion symptoms	symptom_sign
+C0426980	1142	Motor symptom	symptom_sign
+C0427008	213	Stiffness	symptom_sign
+C0427009	3	Joint stiffness nec	symptom_sign
+C0427032	8	Ankle stiff	symptom_sign
+C0427054	6	Weakness of neck	symptom_sign
+C0427068	130	Legs weakness	symptom_sign
+C0427144	13	Toe walking	side_effect
+C0427160	14	Parkinsonian gait	side_effect
+C0427457	3	Red blood cell count decreased	side_effect
+C0427458	12	Red blood cell count increased	side_effect
+C0427564	6	Platelet count normal	side_effect
+C0428977	12	Bradycardia	side_effect
+C0429028	15	Electrocardiogram QT interval	side_effect
+C0435630	4	Wrist fracture	side_effect
+C0435632	4	Hand fracture	side_effect
+C0438215	19	Laboratory test abnormal	side_effect
+C0438237	8	Hepatic enzyme abnormal	side_effect
+C0438717	3	Transaminases increased	side_effect
+C0439029	111	Deafness symptom	symptom_sign
+C0439857	11	Dependence	side_effect
+C0442856	8	Hypoperfusion	side_effect
+C0454578	2	Aphasia fluent	symptom_sign
+C0454644	65	Delayed language development	symptom_sign
+C0455270	7	Sharp pain	symptom_sign
+C0455769	10	Energy increased	side_effect
+C0455770	50	Feel loss	symptom_sign
+C0456103	4	Sepsis neonatal	side_effect
+C0456909	176	Blindness	side_effect
+C0457558	18	Anal symptoms	symptom_sign
+C0458085	2	Tender scar	symptom_sign
+C0458109	14	Pain ovarian	symptom_sign
+C0458239	2	Foot joint pain	symptom_sign
+C0473235	2	Hematuria painless	symptom_sign
+C0473237	5	Hematuria gross	symptom_sign
+C0474366	4	Generalized headache	symptom_sign
+C0474496	8	Diarrhea and vomiting	symptom_sign
+C0474517	2	Tire sign	symptom_sign
+C0476089	11	Endometrial cancer	side_effect
+C0476237	321	Metabolic symptoms	symptom_sign
+C0476241	232	Delayed milestone	symptom_sign
+C0476250	5	Head neck mass	symptom_sign
+C0476254	3	Dyslexia	side_effect
+C0476273	92	Respiratory distress	side_effect
+C0476289	77	Gas pain	symptom_sign
+C0476293	26	Urinary tract symptom	symptom_sign
+C0477491	2	Other urticaria	symptom_sign
+C0478148	11	Other chronic pain	symptom_sign
+C0490011	7	Other convulsions	symptom_sign
+C0494559	3	Inner ear disorder	side_effect
+C0495669	2	Abdominal and pelvic pain	symptom_sign
+C0497131	42	Bleeding hemorrhage	symptom_sign
+C0497136	2	Other general symptom infants	symptom_sign
+C0497156	72	Lymphadenopathy	side_effect
+C0497247	24	Blood pressure increased	side_effect
+C0497274	462	Joint symptom	symptom_sign
+C0497293	7	Dizziness vertigo	symptom_sign
+C0497294	22	Paralysis weakness	symptom_sign
+C0497307	3	Feeling depressed	symptom_sign
+C0497327	48	Dementia	side_effect
+C0497337	5	Other breathing problems	symptom_sign
+C0497364	2	Localize rash	symptom_sign
+C0497366	12	Change skin color	symptom_sign
+C0497406	75	Over weight	symptom_sign
+C0497431	6	Nausea pregnancy vomiting	symptom_sign
+C0497456	8	Absent menstruation	symptom_sign
+C0497542	2	Limited auditory function	symptom_sign
+C0497548	11	Limited neurologic function	symptom_sign
+C0497583	8	Limited social function	symptom_sign
+C0518088	210	Reported pain	symptom_sign
+C0518179	23	Change voice	symptom_sign
+C0518214	7	Life quality	symptom_sign
+C0518988	2	Tooth abscess	side_effect
+C0520559	2	Numbness tongue	symptom_sign
+C0520571	4	Biliary fibrosis	side_effect
+C0520863	3	Diastolic dysfunction	side_effect
+C0520901	16	Increased skin sensitivity	symptom_sign
+C0520902	6	Decreased skin sensitivity	symptom_sign
+C0520903	3	Radiation skin sensitivity	symptom_sign
+C0520906	9	Increased nausea and vomiting	symptom_sign
+C0520907	2	Decreased nausea and vomiting	symptom_sign
+C0520933	56	Spermatogenesis abnormal	side_effect
+C0520963	13	Pain diffuse	symptom_sign
+C0520966	320	Coordination abnormal	side_effect
+C0521161	2	Vasculitic rash	side_effect
+C0521169	19	Compression fracture	side_effect
+C0521471	9	Systemic lupus erythematosus rash	side_effect
+C0521546	20	Congenital joint malformation	side_effect
+C0521620	2	Hydroureter	side_effect
+C0521654	137	Motor deficit	symptom_sign
+C0521789	2	Nervous tinnitus	symptom_sign
+C0521800	2	Central cyanosis	symptom_sign
+C0521991	156	Stress symptom	symptom_sign
+C0522051	12	Acute chest pain	symptom_sign
+C0522055	15	Electrocardiogram abnormal	side_effect
+C0522058	2	Carbohydrate craving	symptom_sign
+C0522062	7	Ulcer type pain	symptom_sign
+C0522067	10	Hepatic pain	side_effect
+C0522070	40	Pancreatic symptom	symptom_sign
+C0522071	24	Pain pancreatic	symptom_sign
+C0522224	28	Paralysis	side_effect
+C0522251	2	Nasal sinus pain	symptom_sign
+C0522347	2	Ear pressure sensation	symptom_sign
+C0524620	91	Metabolic syndrome	side_effect
+C0524702	4	Pulmonary thromboembolism	symptom_sign
+C0524909	2	Chronic hepatitis B	side_effect
+C0525045	3	Affective disorder	side_effect
+C0541865	38	Deposit eye	side_effect
+C0541887	29	Discomfort rectal	symptom_sign
+C0541951	2	Nipple discharge bloody	symptom_sign
+C0542044	9	Incoherent	side_effect
+C0542134	12	Pain thyroid	symptom_sign
+C0542267	8	Weakness postural	symptom_sign
+C0542354	2	Palpebral fissure narrow	symptom_sign
+C0542476	2	Forgetful	symptom_sign
+C0543467	38	Surgery	side_effect
+C0546190	7	Palate weakness	symptom_sign
+C0546343	11	Mucosal erosion	side_effect
+C0546817	7	Fluid overload	side_effect
+C0546959	2	Atrial tachycardia	side_effect
+C0548823	6	Gastrointestinal distress	symptom_sign
+C0549225	29	Myasthenic syndrome	side_effect
+C0549229	4	Nail discomfort	side_effect
+C0549322	7	Eyelid infection	side_effect
+C0549373	16	Laryngeal pain	side_effect
+C0549391	3	Bladder discomfort	side_effect
+C0549393	2	Alcohol problem	side_effect
+C0549419	42	Skin fragility	side_effect
+C0549475	3	Lipase increased	side_effect
+C0549567	41	Pigmentation disorder	side_effect
+C0549622	18	Sexual dysfunction	side_effect
+C0549634	5	Lipids abnormal	side_effect
+C0553668	16	Breathing labor	symptom_sign
+C0553686	3	Brain herniation	side_effect
+C0553697	19	Granulomatous inflammation	symptom_sign
+C0553723	3	Squamous cell carcinoma of skin	side_effect
+C0553730	2	Chondrocalcinosis	side_effect
+C0555060	6	Atrial septal defect murmur	symptom_sign
+C0555724	3	Lip dry	side_effect
+C0555971	24	Oral infection	side_effect
+C0557874	444	Global developmental delay	symptom_sign
+C0557875	8	Tired	symptom_sign
+C0558148	69	Yellow skin	side_effect
+C0558489	58	Renal pain	side_effect
+C0559546	10	Adverse reaction	side_effect
+C0560609	3	Bone pain malignant	symptom_sign
+C0562483	63	Cough persistent	symptom_sign
+C0563275	4	Chest pain right side	symptom_sign
+C0563278	3	Chest pain upper	symptom_sign
+C0563287	2	Arm tightness	symptom_sign
+C0564622	12	Albumin urine present	side_effect
+C0564823	2	Leg pain right	symptom_sign
+C0565563	18	Other joint stiffness	symptom_sign
+C0565798	24	Fever nec	symptom_sign
+C0567083	2	Uterine tenderness	symptom_sign
+C0567085	5	Uterine pain	side_effect
+C0567519	2	Clear discharge nipple	symptom_sign
+C0574066	9	Shortness of breath increased	symptom_sign
+C0574068	4	Rib pain	symptom_sign
+C0574941	3	Inflamed joint	symptom_sign
+C0574985	2	Cervical spine laxity	symptom_sign
+C0574988	3	Elbow joint laxity	symptom_sign
+C0574989	2	Wrist joint laxity	symptom_sign
+C0574990	9	Hand joint laxity	symptom_sign
+C0574992	9	Finger joint laxity	symptom_sign
+C0574995	2	Hip instability laxity	symptom_sign
+C0574996	3	Knee joint laxity	symptom_sign
+C0574998	2	Foot joint laxity	symptom_sign
+C0575011	2	Joint stiffness of spine	symptom_sign
+C0575016	12	Finger joint stiff	symptom_sign
+C0575019	5	Foot joint stiff	symptom_sign
+C0575034	3	Joint warm	symptom_sign
+C0575064	5	Muscle tender	symptom_sign
+C0575081	118	Gait disturbance	side_effect
+C0575090	168	Balance disorder	side_effect
+C0576091	3	Knee deformity	side_effect
+C0576456	184	Poor feeding	symptom_sign
+C0576690	5	Proprioception decreased	symptom_sign
+C0576700	2	Sensation of a lesion	symptom_sign
+C0577559	167	Mass	side_effect
+C0577560	6	Eye mass	symptom_sign
+C0577698	5	Angina exertional	symptom_sign
+C0577730	3	Family stress	side_effect
+C0578044	18	Ear painful	symptom_sign
+C0578050	11	Lymph node pain	side_effect
+C0578503	7	Vaginal bleeding abnormal	symptom_sign
+C0578675	5	Thyrotoxic tremor	symptom_sign
+C0580317	17	Platelet count abnormal	side_effect
+C0580531	4	White blood cell count abnormal	side_effect
+C0580546	2	Blood glucose abnormal	side_effect
+C0581301	2	Abnormal sputum	symptom_sign
+C0581332	3	Hand lump	symptom_sign
+C0581867	52	Symptoms tongue	symptom_sign
+C0581868	3	Peptic symptoms ulcer	symptom_sign
+C0581869	2	Abdominal pain wall	symptom_sign
+C0581870	7	Pain hunger	symptom_sign
+C0581880	4	Headaches morning	symptom_sign
+C0581881	2	Heavy head	symptom_sign
+C0585134	5	Perianal pain	symptom_sign
+C0585566	76	Nystagmus signs	symptom_sign
+C0586392	20	Parkinsonian tremor	symptom_sign
+C0586407	82	Cutaneous symptom	symptom_sign
+C0586750	9	Cough exercise	symptom_sign
+C0587055	4	Limbs lower numbness	symptom_sign
+C0587056	3	Numbness in toes	symptom_sign
+C0587246	9	Extremity weakness	symptom_sign
+C0589386	6	Nonspecific abdominal pain	symptom_sign
+C0595877	13	Blood glucose increased	side_effect
+C0595878	6	Blood sodium increased	side_effect
+C0595883	2	Blood glucose decreased	side_effect
+C0595930	4	Blood cholesterol increased	side_effect
+C0596240	98	Cancer pain	side_effect
+C0598047	2	Neoplasm pain	symptom_sign
+C0600104	3	Compulsions	side_effect
+C0600142	6	Hot flush	side_effect
+C0677500	3	Stinging	symptom_sign
+C0679048	3	Obsessive thoughts	side_effect
+C0679309	10	Somatic manifestation	symptom_sign
+C0679314	58	Abnormal bruising	symptom_sign
+C0679401	4	Vascular rupture	side_effect
+C0679403	2	Vascular stenosis	side_effect
+C0679429	14	Platelet dysfunction	side_effect
+C0679465	15	Psychomotor impairment	symptom_sign
+C0687713	68	Gastrointestinal pain	side_effect
+C0699744	198	Ear infection	side_effect
+C0699896	6	Acute back pain	symptom_sign
+C0700078	3	Deep tendon reflex decrease	symptom_sign
+C0700148	50	Congestion	symptom_sign
+C0700198	3	Aspiration	side_effect
+C0700200	3	Presyncope	side_effect
+C0700502	2	Primary hypothyroidism	side_effect
+C0700572	4	Mobility decreased	side_effect
+C0700590	3	Diaphoresis excessive	symptom_sign
+C0702109	5	Erythropoiesis abnormal	side_effect
+C0702163	2	Trichorrhexis	side_effect
+C0702166	12	Acne	side_effect
+C0723402	8	Sore throat	symptom_sign
+C0729549	18	Gastrointestinal fungal infection	side_effect
+C0729552	6	Genital infection	side_effect
+C0730362	4	Maculopathy	side_effect
+C0740279	59	Cerebellar atrophy	side_effect
+C0740418	5	Back pain chronic	symptom_sign
+C0740426	2	Tibia pain	symptom_sign
+C0740432	6	Stomach fullness	symptom_sign
+C0740441	4	Diarrhea acute	symptom_sign
+C0740457	12	Renal cancer	side_effect
+C0740481	5	Hypotension asymptomatic	symptom_sign
+C0740524	11	Abdomen gas	symptom_sign
+C0740577	6	Abdomen pain acute	symptom_sign
+C0740651	273	Abdominal symptom	side_effect
+C0740852	2	Upper airway obstruction	side_effect
+C0741270	5	Ataxia intermittent	symptom_sign
+C0741548	57	Bladder symptoms	symptom_sign
+C0741585	36	Body pain	symptom_sign
+C0741933	389	Cardiac symptom	symptom_sign
+C0742281	34	Chest pain angina	symptom_sign
+C0742665	5	Colon rectal pain	symptom_sign
+C0742667	2	Colon rectal pain discomfort	symptom_sign
+C0742857	7	Cough acute	symptom_sign
+C0742858	2	Cough chronic nonproductive	symptom_sign
+C0742859	14	Cough chronic productive	symptom_sign
+C0743317	4	Dysphagia chronic	symptom_sign
+C0743330	10	Dyspnea rest	symptom_sign
+C0743542	3	Epigastric pain radiating back	symptom_sign
+C0743546	2	Epigastric pressure	symptom_sign
+C0743668	2	Limb injury	side_effect
+C0743738	102	Eye weak	symptom_sign
+C0743973	46	Fever high	symptom_sign
+C0744034	11	Finger weakness	symptom_sign
+C0744053	4	Flank pain urination	symptom_sign
+C0744165	3	Foot sensory deficit tingling	symptom_sign
+C0744176	131	Foot symptom	symptom_sign
+C0744247	87	Gait change	symptom_sign
+C0744369	9	Genital lesion	side_effect
+C0744403	2	Gingival infection	side_effect
+C0744631	2	Head swollen	symptom_sign
+C0744633	20	Headache acute	symptom_sign
+C0744634	7	Headache atypical	symptom_sign
+C0744648	7	Headache persistent	symptom_sign
+C0745015	4	Hoarseness chronic	symptom_sign
+C0745112	2	Hypertension accelerated symptom	symptom_sign
+C0745411	9	Irregular bleeding	symptom_sign
+C0745417	8	Ischemic pain	symptom_sign
+C0745581	62	Knee symptoms	symptom_sign
+C0746434	2	Maxilla pain	symptom_sign
+C0746643	2	Mouth sensation abnormal	symptom_sign
+C0746668	7	Muscle pain chronic	symptom_sign
+C0746674	14	Muscle weakness generalized	symptom_sign
+C0746687	7	Musculoskeletal weakness	symptom_sign
+C0746779	14	Nausea chronic	symptom_sign
+C0746784	27	Nausea recurrent	symptom_sign
+C0746865	5	Neurologic sign symptom complex	symptom_sign
+C0746868	136	Neuromuscular symptom	symptom_sign
+C0746869	105	Neuromuscular weakness	symptom_sign
+C0746983	9	Obstructive symptom	symptom_sign
+C0747102	36	Ovarian failure	side_effect
+C0747150	2	Pain unilateral	symptom_sign
+C0747251	2	Paraparesis spastic progressive	symptom_sign
+C0747256	3	Infection parasitic	side_effect
+C0747416	14	Pelvis symptom	symptom_sign
+C0747510	2	Periodontal bleeding	symptom_sign
+C0747927	10	Pregnancy signs	symptom_sign
+C0748387	2	Retroperitoneal discomfort	symptom_sign
+C0748706	11	Side pain	symptom_sign
+C0749870	13	Upper motor neuron sign	symptom_sign
+C0749872	11	Upper respiratory infection symptom	symptom_sign
+C0749874	41	Upper respiratory symptom	symptom_sign
+C0750152	2	Vasomotor symptom	symptom_sign
+C0750325	28	Vomit recurrent	symptom_sign
+C0750399	31	Weakness focal	symptom_sign
+C0750401	6	Weakness intermittent	symptom_sign
+C0750402	94	Weakness peripheral	symptom_sign
+C0750403	123	Weakness proximal	symptom_sign
+C0750406	13	Weakness transient	symptom_sign
+C0750414	2	Weight loss acute	symptom_sign
+C0750426	3	White blood cell count increased	side_effect
+C0751137	8	Craniofacial pain	symptom_sign
+C0751186	3	Orthostatic headache	symptom_sign
+C0751265	86	Learning disability	side_effect
+C0751295	5	Memory loss or impairment	symptom_sign
+C0751354	10	Action myoclonus	symptom_sign
+C0751372	63	Pain nerve	symptom_sign
+C0751378	541	Neurologic sign	symptom_sign
+C0751401	4	Ophthalmoparesis	symptom_sign
+C0751407	2	Migratory pain	symptom_sign
+C0751436	3	Tetrahydrobiopterin deficiency	side_effect
+C0751466	5	Phonophobia	side_effect
+C0751495	13	Partial seizures	side_effect
+C0751496	30	Sensory seizure	symptom_sign
+C0751534	2	Syncopal episode	symptom_sign
+C0751535	81	Syncope cardiac	symptom_sign
+C0751576	2	Vocal cord paresis	side_effect
+C0751674	3	Lymphangioleiomyomatosis	side_effect
+C0751837	4	Gait ataxic	symptom_sign
+C0751900	2	Motor tic	symptom_sign
+C0752203	12	Dystonia primary	symptom_sign
+C0752210	6	Paroxysmal dyskinesia	symptom_sign
+C0752252	18	Neuromuscular manifestation	symptom_sign
+C0812426	40	Kidney problem	symptom_sign
+C0814159	17	Impaired balance and coordination	symptom_sign
+C0814161	84	Impaired motor coordination	symptom_sign
+C0836924	2	Thrombocytosis	side_effect
+C0839480	7	Leg lower pain	symptom_sign
+C0847550	57	Nose red	symptom_sign
+C0847554	4	Lump throat	symptom_sign
+C0848080	6	Nausea pregnancy	symptom_sign
+C0848189	2	Facial nerve pain	symptom_sign
+C0848232	2	Excessive urination at night	symptom_sign
+C0848241	23	Problems weight	symptom_sign
+C0848332	18	Abnormal skin spots	symptom_sign
+C0848342	3	Frequent stool	symptom_sign
+C0848377	5	Abdominal injury	side_effect
+C0848383	10	Eye ulcer	side_effect
+C0848390	46	Excessive urination	symptom_sign
+C0848633	3	Pressure sinus	symptom_sign
+C0848641	6	Lip rash	symptom_sign
+C0848728	119	Joint weakness	symptom_sign
+C0848769	64	Impairment skin	symptom_sign
+C0848771	9	Disabilities neurological	symptom_sign
+C0849640	25	Damage skin	symptom_sign
+C0849795	5	Congestion head	symptom_sign
+C0849796	29	Ear congestion	side_effect
+C0849824	3	Bowel change movement	symptom_sign
+C0849852	9	Skin bump	symptom_sign
+C0849907	13	Ear pruritus	side_effect
+C0849911	2	Ear pop	symptom_sign
+C0849925	32	Ventricular failure	side_effect
+C0849970	3	Feel tired	symptom_sign
+C0850045	18	Intestinal pain	symptom_sign
+C0850060	3	Nose pruritus	symptom_sign
+C0850064	4	Hair itch	symptom_sign
+C0850149	11	Cough dry	symptom_sign
+C0850437	2	Feel like vomiting	symptom_sign
+C0850758	29	Pain pelvic	symptom_sign
+C0850760	14	Cardiovascular problem	symptom_sign
+C0851043	7	Lipids increased	side_effect
+C0851121	3	Digestive problem	symptom_sign
+C0851578	26	Sleep disorder	side_effect
+C0851647	292	Muscle tone disorder	side_effect
+C0851807	5	Aspergillus infection	side_effect
+C0851883	12	Neisseria infection	side_effect
+C0852196	4	Mucosal findings abnormal	symptom_sign
+C0852402	8	Headaches nec	symptom_sign
+C0852413	8	Abnormal muscles tone	symptom_sign
+C0852416	10	Pupillary signs	symptom_sign
+C0852418	7	Speech and language abnormalities	symptom_sign
+C0852792	3	Blood cortisol decreased	side_effect
+C0852793	5	Blood cortisol increased	side_effect
+C0852795	6	Blood insulin increased	side_effect
+C0852810	3	Blood creatinine decreased	side_effect
+C0852921	2	Blood fibrinogen increased	side_effect
+C0852949	7	Arterial disorder	side_effect
+C0852952	2	Optic nerve cupping	side_effect
+C0853009	4	Ataxia nec	symptom_sign
+C0853028	4	Blood pH decreased	side_effect
+C0853074	8	Anxiety nec	symptom_sign
+C0853149	2	Blood lactate dehydrogenase increased	side_effect
+C0853204	3	No adverse effect	symptom_sign
+C0853227	4	Blood iron abnormal	side_effect
+C0853263	4	Blood bicarbonate	side_effect
+C0853314	7	Soft tissue inflammation	side_effect
+C0853347	2	Venous thrombosis limb	side_effect
+C0853595	3	Blood cholesterol abnormal	side_effect
+C0853619	32	Local swelling	side_effect
+C0853692	3	Blood triglycerides increased	side_effect
+C0853759	5	Blood potassium abnormal	side_effect
+C0853760	10	Blood potassium increased	side_effect
+C0853772	5	Blood calcium abnormal	side_effect
+C0853776	6	Blood albumin increased	side_effect
+C0853777	2	Blood albumin decreased	side_effect
+C0853784	6	Blood iron increased	side_effect
+C0853786	2	Blood sodium abnormal	side_effect
+C0853813	5	Local reaction	side_effect
+C0853895	2	Mental disorder due to a	side_effect
+C0853908	2	Oropharyngeal swelling	side_effect
+C0853945	3	Oral mucosal blistering	side_effect
+C0854058	7	pH urine increased	side_effect
+C0854121	3	Gastrointestinal motility disorder	side_effect
+C0854146	16	Blood test abnormal	side_effect
+C0854148	28	Cell urine	symptom_sign
+C0854171	4	Temperature regulation disorder	side_effect
+C0854303	14	Limb discomfort	side_effect
+C0854374	5	Lip pigmentation	symptom_sign
+C0854453	2	Escherichia sepsis	side_effect
+C0854495	12	Hepatitis F	side_effect
+C0854706	36	Neonatal infection	side_effect
+C0854985	3	Lung adenocarcinoma stage I	side_effect
+C0855329	4	Electrocardiogram change	side_effect
+C0856054	4	Mental status changes	side_effect
+C0856245	22	Low back pain	symptom_sign
+C0856566	2	Pain in elbow	symptom_sign
+C0856567	9	Pain in hip	symptom_sign
+C0856572	4	Pain in foot	symptom_sign
+C0856620	20	Shoulder pain	symptom_sign
+C0856712	3	Difficult digestion	symptom_sign
+C0856864	5	Fullness head	symptom_sign
+C0857143	9	Marked rigidity	symptom_sign
+C0857248	4	Feet painful	symptom_sign
+C0857256	4	Unwell	symptom_sign
+C0857305	2	Thrombocytopenic purpura	side_effect
+C0857332	2	Clonic movement	symptom_sign
+C0857336	3	Burning face sensation	symptom_sign
+C0857349	13	Involuntary dystonic movements	symptom_sign
+C0857361	3	Headache occurring	symptom_sign
+C0857516	2	Floppy	symptom_sign
+C0858217	4	Gastrointestinal fullness	symptom_sign
+C0858235	2	Swelling testicle	symptom_sign
+C0858275	4	Epileptiform movement	symptom_sign
+C0858277	42	Angina symptom	symptom_sign
+C0858572	9	Rigidity of limbs	symptom_sign
+C0858582	2	Numbness of eyelid	symptom_sign
+C0858583	31	Head numbness	symptom_sign
+C0858651	3	Parotid pain	symptom_sign
+C0858708	8	Burn itch	symptom_sign
+C0858709	4	Hand itch	symptom_sign
+C0858724	10	Limb twitching	symptom_sign
+C0858765	25	Vascular pain	side_effect
+C0858804	12	Mucosal pain	symptom_sign
+C0858851	2	Confusion reversible	symptom_sign
+C0858883	6	Abnormal sensation of limbs	symptom_sign
+C0858898	3	Head throbbing	symptom_sign
+C0858924	88	General discomfort	symptom_sign
+C0858949	5	Oral mucosa pain	symptom_sign
+C0858955	2	Stamina decreased	symptom_sign
+C0858959	2	Finger spasticity	symptom_sign
+C0858967	2	Eyelid redness	symptom_sign
+C0858968	7	Leg redness	symptom_sign
+C0858971	4	Ventilation difficult	symptom_sign
+C0859998	2	Discomfort intraocular	symptom_sign
+C0859999	2	Dry rale	symptom_sign
+C0860193	6	Restlessness	symptom_sign
+C0860210	6	Granulomatous liver disease	side_effect
+C0860603	59	Anxiety symptom	symptom_sign
+C0861156	2	Visual phenomena	symptom_sign
+C0863084	52	Skin discomfort	side_effect
+C0863104	29	Discomfort neck	symptom_sign
+C0863164	14	Headache discomfort	symptom_sign
+C0870082	61	Hyperkeratosis	side_effect
+C0872410	31	Posturing	symptom_sign
+C0876973	56	Lung infection	side_effect
+C0877009	30	Muscle fibrosis	side_effect
+C0877018	3	Pituitary enlargement	symptom_sign
+C0877046	7	Tooth infection	side_effect
+C0877048	4	Oral fungal infection	side_effect
+C0877113	21	Scar pain	side_effect
+C0877134	6	Hernia pain	side_effect
+C0877197	18	Lip numb	symptom_sign
+C0877203	14	Respiratory tract infection viral	side_effect
+C0877232	25	Peripheral swelling	symptom_sign
+C0877266	2	Upper respiratory tract inflammation	side_effect
+C0877336	2	Blood bilirubin decreased	side_effect
+C0877338	2	Breast discomfort	side_effect
+C0877401	6	Sensorimotor disorder	side_effect
+C0877462	5	Mouth tingling	symptom_sign
+C0877473	7	Mouth tight	symptom_sign
+C0877487	3	Lip tingling	symptom_sign
+C0877495	2	Tingling tongue	symptom_sign
+C0877499	2	Rash gum	symptom_sign
+C0877610	15	Arm discomfort	symptom_sign
+C0877617	33	Bowel cramp	symptom_sign
+C0877664	2	Gastrointestinal cramps	symptom_sign
+C0877713	3	Burning finger	symptom_sign
+C0877714	4	Burning hip	symptom_sign
+C0877716	4	Burn legs	symptom_sign
+C0877781	4	Headache unilateral	symptom_sign
+C0878544	231	Cardiomyopathy	side_effect
+C0878638	13	Tongue signs	symptom_sign
+C0917799	4	Hypersomnia	side_effect
+C0917801	9	Insomnia	side_effect
+C0917816	3	Deficiency mental	symptom_sign
+C0919626	2	Thirst decreased	symptom_sign
+C0919643	3	Urine calcium increased	side_effect
+C0920069	2	Hand joint swelling	symptom_sign
+C0920154	33	Pain spleen	symptom_sign
+C0920161	3	Shoulder muscle stiffness	symptom_sign
+C0920205	32	Neonatal hepatomegaly	symptom_sign
+C0920296	4	Disorder reading	symptom_sign
+C0920435	2	Cerebellar dyskinesia	symptom_sign
+C0920703	90	Gastrointestinal sign	symptom_sign
+C0946092	9	Bloating gas	symptom_sign
+C0947873	229	Diarrhea	symptom_sign
+C0947999	39	Blood urine present	side_effect
+C0948085	10	Corneal defect	side_effect
+C0948168	2	Bone marrow toxicity	side_effect
+C0948239	4	Medication vomiting	symptom_sign
+C0948296	99	Ear discomfort	side_effect
+C0948349	14	Respiratory tract congestion	side_effect
+C0948391	4	Childhood convulsion	symptom_sign
+C0948396	8	Frequent headache	symptom_sign
+C0948441	3	Venoocclusive disease	side_effect
+C0948522	2	Ocular vascular disorder	side_effect
+C0948586	19	Protein urine present	side_effect
+C0948595	10	Ocular discomfort	side_effect
+C0948695	8	Low white blood cell count	symptom_sign
+C0948775	45	High weight	symptom_sign
+C0949070	7	Upper respiratory tract congestion	side_effect
+C0949690	9	Spinal osteoarthritis	side_effect
+C0973461	2	Dysphasia	symptom_sign
+C1069915	10	Vertigo	symptom_sign
+C1089133	2	Bulla	symptom_sign
+C1096081	18	Bone swelling	symptom_sign
+C1096106	13	Wound complication	side_effect
+C1096228	6	Laryngeal discomfort	symptom_sign
+C1096250	23	Gastrointestinal discomfort	symptom_sign
+C1096252	21	Cardiac discomfort	side_effect
+C1096257	4	Dental discomfort	side_effect
+C1096303	2	Lipase abnormal	side_effect
+C1096393	15	Body fat disorder	side_effect
+C1096590	6	Discomfort groin	symptom_sign
+C1096591	11	Hip discomfort	symptom_sign
+C1096593	5	Shoulder discomfort	symptom_sign
+C1096594	36	Bowel discomfort	symptom_sign
+C1096596	2	Discomfort foot	symptom_sign
+C1112182	4	Parkinsonian rest tremor	side_effect
+C1112209	41	Abdominal infection	side_effect
+C1112256	8	Peripheral sensorimotor neuropathy	side_effect
+C1112261	9	Gaze palsy	side_effect
+C1112303	2	Facial wasting	side_effect
+C1112443	6	Male sexual dysfunction	side_effect
+C1112489	5	Corneal irritation	side_effect
+C1112537	6	Neurological examination abnormal	side_effect
+C1112616	16	Loss of proprioception	side_effect
+C1112666	11	Respiratory dyskinesia	symptom_sign
+C1112766	2	Forehead swelling	symptom_sign
+C1140680	16	Ovarian cancer	side_effect
+C1141893	3	Muscle enzyme increased	side_effect
+C1142015	3	Blood bilirubin abnormal	side_effect
+C1142112	3	Eyelash thickening	side_effect
+C1142166	9	Brugada syndrome	side_effect
+C1142237	2	Hepatobiliary pain	symptom_sign
+C1142272	4	Neutrophilic dermatosis	side_effect
+C1142349	6	Eyelid pain	side_effect
+C1142390	2	Visual impairment transient	symptom_sign
+C1142470	4	Suture related complication	side_effect
+C1142499	2	Gastrointestinal toxicity	side_effect
+C1142520	6	Nail pigmentation	side_effect
+C1145670	162	Respiratory failure	side_effect
+C1167676	2	Congenital visual acuity reduced	symptom_sign
+C1167779	2	Neutropenic infection	side_effect
+C1168188	15	Headaches transient	symptom_sign
+C1253936	3	Joint effusion	side_effect
+C1258215	2	Ileus	side_effect
+C1260922	2	Respiration abnormal	side_effect
+C1261470	3	Meningocele	side_effect
+C1261473	15	Sarcoma	side_effect
+C1262006	45	Sinusitis bacterial	side_effect
+C1262018	5	Transplant failure	side_effect
+C1262141	2	Poor quality sleep	side_effect
+C1262170	3	Herpes dermatitis	side_effect
+C1262299	5	Oral papilloma	side_effect
+C1262535	9	Jaundice hepatocellular	side_effect
+C1264613	122	Gastrointestinal infection	side_effect
+C1269684	119	Pigment skin	symptom_sign
+C1273573	78	unsteady gait	symptom_sign
+C1274925	41	Painful skin	symptom_sign
+C1277295	31	Cough fever	symptom_sign
+C1279247	2	Genitourinary tract infection	side_effect
+C1280433	2	Lipoatrophy	side_effect
+C1282310	13	Intermittent pain	symptom_sign
+C1285373	24	Respiratory disorder neonatal	side_effect
+C1287298	11	Urine output	side_effect
+C1291078	5	Epigastric discomfort	side_effect
+C1301937	10	Talipes	side_effect
+C1306341	3	Mental disability	side_effect
+C1306577	63	Death	side_effect
+C1306792	118	Red man syndrome	side_effect
+C1332836	54	Cancer fatigue	symptom_sign
+C1333034	10	Chronic cancer pain	symptom_sign
+C1383860	6	Cardiac hypertrophy	side_effect
+C1384489	3	Scratch	side_effect
+C1384666	55	Hearing impaired	side_effect
+C1397014	130	Imbalance	symptom_sign
+C1398551	24	Sense loss	symptom_sign
+C1412002	3	Atypical pneumonia	side_effect
+C1442877	9	Sore skin	symptom_sign
+C1443060	6	Feeling abnormal	side_effect
+C1443924	72	Severe diarrhea	symptom_sign
+C1504379	7	Coagulation test abnormal	side_effect
+C1504435	5	Electrocardiogram QT interval abnormal	side_effect
+C1504494	3	Tingling in extremities	symptom_sign
+C1510417	3	Apraxia of gait	symptom_sign
+C1510586	75	Autism spectrum disorder	side_effect
+C1519353	3	Rash papular	side_effect
+C1527249	39	Colorectal cancer	side_effect
+C1527340	10	Abnormal voice	symptom_sign
+C1527344	5	Dysphonia	side_effect
+C1527410	16	Renal rickets	side_effect
+C1533692	32	Dental eruption	symptom_sign
+C1534967	57	Hand pain	symptom_sign
+C1535893	5	Orthostatic intolerance	side_effect
+C1535939	2	Pneumocystis jirovecii pneumonia	side_effect
+C1535950	29	Gastrointestinal inflammation	side_effect
+C1535964	9	Cholestatic pruritus	symptom_sign
+C1535970	25	Blood count abnormal	side_effect
+C1535975	13	Pelvic discomfort	side_effect
+C1536086	14	Eye numbness	symptom_sign
+C1536136	2	Neurological status deterioration	symptom_sign
+C1536145	3	Eyelash hyperpigmentation	side_effect
+C1536390	36	Ankle swelling	symptom_sign
+C1536393	59	Ptosis of eyelid	symptom_sign
+C1536397	4	functional constipation	symptom_sign
+C1536477	29	Inadequate	symptom_sign
+C1536684	8	Pain in neck	symptom_sign
+C1540524	5	Vision nos	symptom_sign
+C1540548	4	Suicidal	symptom_sign
+C1540724	238	fever	symptom_sign
+C1540846	22	nasal symptom nos	symptom_sign
+C1540854	9	Blood in vomit	symptom_sign
+C1540859	18	knee stiff	symptom_sign
+C1540862	12	hand joint stiff	symptom_sign
+C1540867	9	wrist stiff	symptom_sign
+C1540868	9	elbow stiff	symptom_sign
+C1540871	6	Cramp leg	symptom_sign
+C1542197	297	Bleeding	symptom_sign
+C1542746	21	Abnormal weight loss	symptom_sign
+C1565489	67	Renal impairment	side_effect
+C1571782	5	tiredness	symptom_sign
+C1571956	113	blurred vision	symptom_sign
+C1578452	14	hand cramps	symptom_sign
+C1578636	31	Sweat excessive	symptom_sign
+C1579063	28	Paralysis symptoms	symptom_sign
+C1579064	785	Weakness symptoms	symptom_sign
+C1608408	11	Malignant transformation	side_effect
+C1608971	2	Optic nerve pallor	symptom_sign
+C1611167	2	Waist circumference increased	side_effect
+C1619700	4	Renal aplasia	side_effect
+C1622418	14	Vesicle	symptom_sign
+C1658104	8	Numbness arm	symptom_sign
+C1659990	2	Endocrine or metabolic problem	symptom_sign
+C1692886	11	Arthritis bacterial	side_effect
+C1695782	8	Cerebral hypoperfusion	side_effect
+C1696157	5	Gastrointestinal stoma complication	side_effect
+C1697845	9	Cataract conditions	symptom_sign
+C1698258	20	Light sensitivity to eye	symptom_sign
+C1700763	6	Articulation problem	symptom_sign
+C1707516	11	Corneal sensitivity	symptom_sign
+C1717785	3	Dizziness or vertigo	symptom_sign
+C1718341	19	Soft tissue pain	symptom_sign
+C1719397	2	Pain due to malignancy	symptom_sign
+C1735368	2	Acute dystonia	symptom_sign
+C1735643	8	Chronic wheezing	symptom_sign
+C1737239	27	Near fainting	symptom_sign
+C1737329	459	Dysmorphism	side_effect
+C1740831	6	Chronic chest pain	symptom_sign
+C1744601	10	Heart rate abnormal	side_effect
+C1821937	4	Change in libido	symptom_sign
+C1827547	39	Repetitive behavior	symptom_sign
+C1836296	4	Lower extremity weakness	symptom_sign
+C1850534	12	Generalized edema	symptom_sign
+C1856661	3	Cornea cloudy	symptom_sign
+C1859270	113	Slow speech	side_effect
+C1868709	6	Activation syndrome	side_effect
+C1868919	13	Upper abdominal discomfort	symptom_sign
+C1955743	6	Mineralocorticoid deficiency	side_effect
+C1956346	22	Coronary artery disease	side_effect
+C1960980	4	Pain radiating to jaw	symptom_sign
+C1963789	2	Genital swelling	side_effect
+C1963822	3	Mucosal pigmentation	side_effect
+C1971623	56	Appetite loss	symptom_sign
+C1971624	3	Appetite absent	symptom_sign
+C1971670	67	Leg swelling	symptom_sign
+C1971671	4	Prominent veins	symptom_sign
+C1971702	115	Numbness	symptom_sign
+C1998978	2	Adults failure thrive	symptom_sign
+C2004489	26	Regurgitation	side_effect
+C2004491	74	Scar	side_effect
+C2010778	8	Generalized dry skin	symptom_sign
+C2012610	25	Groin symptoms	symptom_sign
+C2012639	37	Growth on eye	symptom_sign
+C2012640	25	Eyelid growth	symptom_sign
+C2012643	4	Growth on sclera	symptom_sign
+C2012694	2	Spots on gums	symptom_sign
+C2013427	8	Oral cavity symptoms	symptom_sign
+C2016949	3	Soft tissue hip pain	symptom_sign
+C2017125	2	Soft tissue stiffness	symptom_sign
+C2019869	7	Staring spells	symptom_sign
+C2020352	5	Low back stiffness	symptom_sign
+C2028422	73	Hand atrophy	symptom_sign
+C2029690	5	Headache accompanied	symptom_sign
+C2029691	50	Headache associated	symptom_sign
+C2029697	6	Menstrual headache	symptom_sign
+C2029698	3	Headache accompanied by nausea	symptom_sign
+C2029701	2	Headache accompanied by vomiting	symptom_sign
+C2029771	29	Severity of headache	symptom_sign
+C2029884	2	Hearing loss by exam	symptom_sign
+C2029982	2	Heartburn with regurgitation	symptom_sign
+C2030955	18	High irritability	symptom_sign
+C2032141	2	Forearm bone pain	symptom_sign
+C2032326	3	Pain in palm	symptom_sign
+C2032730	2	Painful diarrhea	symptom_sign
+C2032976	5	Palpitations at rest	symptom_sign
+C2032995	6	Palpitations sustained	symptom_sign
+C2032997	8	Fast palpitations	symptom_sign
+C2037303	2	Superficial skin pain	symptom_sign
+C2037494	2	Pain above eye	symptom_sign
+C2045655	2	Change in arch	symptom_sign
+C2045676	5	Change in stool color	symptom_sign
+C2045681	3	Change in urinary habits	symptom_sign
+C2045691	115	Character deficiency	symptom_sign
+C2048873	2	Increased sensitivity to glare	symptom_sign
+C2052087	2	Pelvic pressure	symptom_sign
+C2053145	3	Pain around the ear	symptom_sign
+C2074685	2	Chronic dry skin	symptom_sign
+C2077827	11	Anxiety episodic	symptom_sign
+C2079572	9	Persistent cyanosis	symptom_sign
+C2080640	6	Bilateral photophobia	symptom_sign
+C2080643	2	Central photopsia	symptom_sign
+C2106367	2	Cold arm	symptom_sign
+C2106368	3	Cold fingers	symptom_sign
+C2106403	3	Cold toes	symptom_sign
+C2107742	3	Confusion constant	symptom_sign
+C2108390	2	Itching of soles	symptom_sign
+C2110608	2	Soft tissue knee pain	symptom_sign
+C2111865	9	Poor arm coordination	symptom_sign
+C2114320	2	Premature contractions	symptom_sign
+C2116331	13	Tingling of feet	symptom_sign
+C2116338	3	Tingling of arms	symptom_sign
+C2116350	9	Tingling of hands	symptom_sign
+C2116364	9	Tingling of legs	symptom_sign
+C2116376	2	Tingling of shoulder	symptom_sign
+C2116460	5	Tingling of toes	symptom_sign
+C2126069	2	Bone pain of finger	symptom_sign
+C2126075	7	Bilateral blurred vision	symptom_sign
+C2126086	6	Cough worse at night	symptom_sign
+C2126089	3	Weak grip	symptom_sign
+C2126115	35	Fainting with exercise	symptom_sign
+C2126366	3	Red skin crust	symptom_sign
+C2126371	2	Brown skin crust	symptom_sign
+C2126992	2	Loss of hair from head	symptom_sign
+C2127111	2	Fluctuating hearing loss	symptom_sign
+C2127347	3	Burning sensation during urination	symptom_sign
+C2128827	4	Anxiety daily	symptom_sign
+C2128839	3	Infantile behavior	symptom_sign
+C2129214	4	Stool loose	symptom_sign
+C2129416	2	Character of arm pain	symptom_sign
+C2130179	2	Decreased ability to function	symptom_sign
+C2132198	4	Abnormal blistering of the skin	symptom_sign
+C2136686	49	Reported bruising	symptom_sign
+C2164362	2	Decreased ability to concentrate	symptom_sign
+C2168169	20	Leg muscle atrophy	symptom_sign
+C2169798	3	Recurrent dizziness	symptom_sign
+C2173677	41	Renal cyst	side_effect
+C2183410	4	Difficulty closing one eye	symptom_sign
+C2183423	9	Difficulty distinguishing colors	symptom_sign
+C2183431	12	Difficulty moving eyes	symptom_sign
+C2183453	11	Difficulty understanding speech	symptom_sign
+C2183875	4	Lightheadedness during exercise	symptom_sign
+C2184202	3	Localized joint pain	symptom_sign
+C2184210	3	Localized joint swelling	symptom_sign
+C2188172	3	Unexplained vaginal bleeding	symptom_sign
+C2188185	11	One eye is red	symptom_sign
+C2188199	3	Constant headache	symptom_sign
+C2188220	15	Unusual behavior	symptom_sign
+C2199604	96	Easy bleeding	symptom_sign
+C2199607	3	Bleeding spontaneously	symptom_sign
+C2199610	13	Recurrent easy bleeding	symptom_sign
+C2200101	2	Lump in mouth	symptom_sign
+C2201627	6	Eye pain right	symptom_sign
+C2202982	7	Wavy lines in vision	symptom_sign
+C2202983	15	Weak cough	symptom_sign
+C2203000	17	Weak hands and feet	symptom_sign
+C2203206	6	Wheezing worse at night	symptom_sign
+C2203298	4	Worsening central vision	symptom_sign
+C2203730	7	Skull pain	symptom_sign
+C2219730	21	Focal disturbances	symptom_sign
+C2219735	3	Shuffling walk	symptom_sign
+C2219736	2	Facial tingling	symptom_sign
+C2219788	2	Numbness of both legs	symptom_sign
+C2219819	2	Bone pain diffuse	symptom_sign
+C2219829	10	Hand muscle cramps	symptom_sign
+C2220023	2	Feel restless	symptom_sign
+C2220028	6	Burning headache	symptom_sign
+C2220033	8	New cough	symptom_sign
+C2220042	6	Bilateral red eyes	symptom_sign
+C2220065	4	Bone pain in knee	symptom_sign
+C2220119	3	Bone pain in hand	symptom_sign
+C2220255	122	Motor disturbances	symptom_sign
+C2225524	4	Breast enlargement	side_effect
+C2231893	2	Skin crust shape	symptom_sign
+C2231972	2	Skin crust on neck	symptom_sign
+C2232696	2	Painful mouth sore	symptom_sign
+C2232697	89	Mood symptoms	symptom_sign
+C2233590	10	Flank pain severity	symptom_sign
+C2233591	2	Flank pain intermittent	symptom_sign
+C2233628	6	Red eyelid growth	symptom_sign
+C2239176	9	Hepatocellular carcinoma	side_effect
+C2242996	87	Tingling	symptom_sign
+C2267233	135	Hypotonia neonatal	side_effect
+C2315100	3	Pediatric failure to thrive	symptom_sign
+C2317767	2	Child is not walking	symptom_sign
+C2363731	2	Oropharyngeal pain	side_effect
+C2363747	24	Neurological decompensation	symptom_sign
+C2363829	2	Semen analysis abnormal	side_effect
+C2363970	21	Respiratory fatigue	symptom_sign
+C2364082	15	Hyposmia	side_effect
+C2364135	11	Body discomfort	symptom_sign
+C2364164	14	Fluid imbalance	side_effect
+C2366932	4	Convulsions triggered	symptom_sign
+C2367672	26	Recurrent chronic cough	symptom_sign
+C2371136	2	Sensation of nausea	symptom_sign
+C2584688	3	Testicular swelling	side_effect
+C2586208	4	Visceral abdominal pain	symptom_sign
+C2607914	2	Rhinitis allergic	side_effect
+C2609048	5	Ligament pain	symptom_sign
+C2609174	7	Tongue pigmentation	side_effect
+C2609283	2	Interrupted urinary stream	symptom_sign
+C2711227	17	Hepatic steatosis	side_effect
+C2712122	2	Blood pressure normal	side_effect
+C2712367	22	Other speech disturbances	symptom_sign
+C2717961	3	Thrombotic microangiopathy	side_effect
+C2718128	15	Nasal inflammation	side_effect
+C2737161	110	Pain or discomfort	symptom_sign
+C2747921	2	Malodorous diarrhea	symptom_sign
+C2752009	9	White matter lesion	side_effect
+C2830339	24	Other polyuria	symptom_sign
+C2830343	2	Feeling of incomplete bladder emptying	symptom_sign
+C2830453	14	Other malaise	symptom_sign
+C2830460	482	Short stature	symptom_sign
+C2895804	3	Other muscle spasm	symptom_sign
+C2910384	7	Other abnormalities of breathing	symptom_sign
+C2910387	35	Severe abdominal pain	symptom_sign
+C2910388	37	Other abdominal pain	symptom_sign
+C2910396	8	Nausea without vomiting	symptom_sign
+C2921131	5	Other hemoptysis	symptom_sign
+C2937220	9	Malformation venous	side_effect
+C2937228	66	Tunnel vision	side_effect
+C2938970	2	Penile curvature	side_effect
+C2939147	2	Feeling hot	side_effect
+C2939447	6	Right ventricular failure	side_effect
+C2945560	83	Hemolytic	symptom_sign
+C2945698	11	Panic symptoms	symptom_sign
+C2957106	50	Headache severe	symptom_sign
+C2973725	4	Pulmonary arterial hypertension	side_effect
+C2984057	49	Have nausea	symptom_sign
+C2984058	257	Have pain	symptom_sign
+C2985289	7	Early pregnancy symptom	symptom_sign
+C3160840	2	Macular pigmentation	side_effect
+C3160915	4	Corneal thickening	symptom_sign
+C3203358	6	Hypoventilation	side_effect
+C3257803	3	Watery eyes	symptom_sign
+C3263723	48	Injury	side_effect
+C3267038	37	Fracture pain	symptom_sign
+C3273930	48	Tumor mass	symptom_sign
+C3463815	45	Feel fatigue	symptom_sign
+C3495559	3	Juvenile idiopathic arthritis	side_effect
+C3496180	9	Sleep apnea	symptom_sign
+C3506376	3	Skin wound red	symptom_sign
+C3509066	2	Stiffness in hand joint	symptom_sign
+C3509787	154	Progressive limb weakness	symptom_sign
+C3532522	3	Pain in palate	symptom_sign
+C3640017	10	Tearing pain	symptom_sign
+C3641755	22	Have constipation	symptom_sign
+C3641756	90	Have diarrhea	symptom_sign
+C3641891	15	Have itch	symptom_sign
+C3647127	3	Pain tightness	symptom_sign
+C3647129	75	Pain pressure	symptom_sign
+C3647130	6	Pain onset sudden	symptom_sign
+C3647131	5	Pain onset new	symptom_sign
+C3647132	2	Pain onset chronic	symptom_sign
+C3647135	2	Pain heaviness	symptom_sign
+C3662133	3	Referred itching	symptom_sign
+C3665347	199	Visual impairment	side_effect
+C3665356	2	Food intolerance	side_effect
+C3665386	196	Abnormal vision	symptom_sign
+C3665444	3	Neutrophilia	side_effect
+C3665473	64	Deafness bilateral	side_effect
+C3665487	22	Yellow skin and eyes	symptom_sign
+C3665624	2	Blood calcium decreased	side_effect
+C3670794	8	Digit pain	symptom_sign
+C3670824	3	Bone shaft pain	symptom_sign
+C3697219	3	Focal motor weakness	symptom_sign
+C3698314	5	Gait disorder due to weakness	symptom_sign
+C3714552	6	Strength decreased	symptom_sign
+C3714625	11	Neuropathic pain	symptom_sign
+C3714636	25	Inflammation lung	symptom_sign
+C3714772	74	Fever recurrent	symptom_sign
+C3805066	26	Pulmonary pain	symptom_sign
+C3805244	3	Painful rash	symptom_sign
+C3805245	9	Painful nodule	symptom_sign
+C3805255	2	Residual pain	symptom_sign
+C3808046	4	Breathing dysregulation	symptom_sign
+C3809715	10	Epistaxis recurrent	symptom_sign
+C3812660	16	Skin bruise	symptom_sign
+C3814530	3	Skin vesicle	symptom_sign
+C3814874	2	Loss of appetite question	symptom_sign
+C3825080	5	Pain in adolescence	symptom_sign
+C3825414	2	Pain in children	symptom_sign
+C3826492	4	Cyanosis in children	symptom_sign
+C3829611	4	Nausea frequency	symptom_sign
+C3840090	7	Abdominal muscle pain	symptom_sign
+C3853138	3	Very mild pain	symptom_sign
+C3854672	14	Arrhythmic syncope	symptom_sign
+C3862404	15	Severe muscle pain	symptom_sign
+C3887638	6	Failure to thrive in infant	symptom_sign
+C3887651	22	Palsy	symptom_sign
+C3887784	5	Decreased urine output	symptom_sign
+C3887873	383	Hearing loss	symptom_sign
+C3888895	7	Lower respiratory tract congestion	symptom_sign
+C3889016	5	Pelvic bone pain	symptom_sign
+C3898969	5	Have been vomiting	symptom_sign
+C4024610	3	Leg muscle stiffness	symptom_sign
+C4029742	5	Chronic leg pain	symptom_sign
+C4048158	15	Convulsions	symptom_sign
+C4049602	72	Hyperactivity	symptom_sign
+C4049933	3	Anesthesia	symptom_sign
+C4054476	4	Monogenic obesity	symptom_sign
+C4060792	58	Itching	symptom_sign
+C4062228	2	Inability to speak	symptom_sign
+C4062700	4	Rectal fullness	symptom_sign
+C4068789	32	Numbness and tingling	symptom_sign
+C4084724	2	Usual severity constipation	symptom_sign
+C4084725	3	Usual severity cough	symptom_sign
+C4084726	32	Distress cough	symptom_sign
+C4084727	2	Cough frequency	symptom_sign
+C4084762	4	Usual severity shortness of breath	symptom_sign
+C4084764	131	Shortness of breath	symptom_sign
+C4084768	4	Usual severity vomiting	symptom_sign
+C4084769	4	Vomiting frequency	symptom_sign
+C4084774	38	Have weight loss	symptom_sign
+C4084776	271	Weight loss	symptom_sign
+C4084787	11	Have difficulty swallowing	symptom_sign
+C4084788	35	Have dizziness	symptom_sign
+C4084793	11	Have hair loss	symptom_sign
+C4084802	2	Usual severity diarrhea	symptom_sign
+C4084894	54	Hair loss	symptom_sign
+C4085210	21	Usual severity pain	symptom_sign
+C4085317	6	Diarrhea frequency	symptom_sign
+C4085548	3	Usual severity dizziness	symptom_sign
+C4085641	3	Level of joint pain	symptom_sign
+C4087282	2	Tongue discomfort	symptom_sign
+C4269195	3	Chronic bladder pain	symptom_sign
