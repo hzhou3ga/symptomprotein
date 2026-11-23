@@ -67,8 +67,8 @@ add predicted precisions
 ####
 
 
-
 ###### FINAL symptom-gene results ########
-all_side_qlt0.05new_hasgn_inclnovel_genelst.tsv
+results/all_side_qlt0.05new_hasgn_inclnovel_genelst.tsv
+
 
 
