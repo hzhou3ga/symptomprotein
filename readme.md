@@ -60,17 +60,15 @@ merge gene-symptom predictions for getting symptom to gene predictions:
 ./scan_all_sym2gn_rr.job
 --> get for symptom to gene predictions
 
-
-
-
-
-###### FINAL symptom-gene results ######
-all_side_qlt0.05new_hasgn_inclnovel_genelst.tsv
-
-
-
 add predicted precisions
 
 ./scan_all_predsym2gn_precision.job 
 
 ####
+
+
+
+###### FINAL symptom-gene results ########
+all_side_qlt0.05new_hasgn_inclnovel_genelst.tsv
+
+
